@@ -2,7 +2,7 @@
 REM Simple Git automation batch file
 
 REM Go to your project folder (palitan ang path sa repo mo)
-cd /d "C:\Users\Administrator\Desktop\update"
+cd /d "C:\Users\OGPerformance\Desktop\obsessionupdate"
 
 REM Add all changes
 echo Running: git add *
