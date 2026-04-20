@@ -9777,12 +9777,12 @@
 /DataTable/KeyMap.dat.zip|44a18eabdeaa75207a483f04e26c2223
 /DataTable/KeyMap_NKM.dat.zip|94d314752d0c87d68cd396a87b580402
 /DataTable/MAPDATA.DAT.zip|d70f9d9c1142cc5f79e0da015cbcde0b
-/DataTable/Map.edf.zip|66895de7e2ea077aa2fda629ae9d8310
+/DataTable/Map.edf.zip|e465fc6277bc504dde12758faa17506d
 /DataTable/MonsterScript.edf.zip|fc67078db76a0e7e4bc98439b28bff3d
 /DataTable/MsgEvent.edf.zip|7889f2ac78eb6824e62ce8cc9521ca5a
 /DataTable/Player.edf.zip|252f0a394f181cea91d5bae592505ca0
 /DataTable/PlayerCharacter.edf.zip|0e1db2f053b0580b30a3503a7f2de898
-/DataTable/Quest.edf.zip|3c311bb8e37fa7d373a7b8f2d64e2f8d
+/DataTable/Quest.edf.zip|60d9538dbf4a9122bffef1d32b3ed1f7
 /DataTable/RF_AVI.dat.zip|03166c4fcf8e54a1eac84fc38164564e
 /DataTable/RF_URL.dat.zip|f6961eb30b6e9aadc2a7289b7c17df4e
 /DataTable/Resource.edf.zip|4e4cc05be6f7a912693aee95fb1fc961
@@ -9834,7 +9834,7 @@
 /DataTable/en-gb/NDItem.edf.zip|bcd0772927e4ccc8564fe35cbbf1e1e0
 /DataTable/en-gb/NDItemCash.edf.zip|e2f59867661c279f3cf6b3565021c60c
 /DataTable/en-gb/NDLanguage.edf.zip|8896e9665630c42cde4b8fe93f692841
-/DataTable/en-gb/NDMap.edf.zip|dc5b7e0ea74abf6354677d3a1ab0ab03
+/DataTable/en-gb/NDMap.edf.zip|311c9d77c1d243d4edfc9624c49f94b2
 /DataTable/en-gb/NDMsgEvent.edf.zip|4c13d9217f43dcbabe519acb70e0626d
 /DataTable/en-gb/NDMsgMonster.edf.zip|69c648c3f97e9bee88f189f4502cb196
 /DataTable/en-gb/NDQuest.edf.zip|ef1714ad71412970394e4a5a4effc54e
