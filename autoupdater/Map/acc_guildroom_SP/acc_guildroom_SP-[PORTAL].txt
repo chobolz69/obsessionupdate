@@ -1,5 +1,0 @@
-_str_code	_str_code	_str_code	_str_code	int	_str_code	END
-dm_code	link_map	link_dm	active_map	dummy_type	use_race	
-더미_식별코드	연결맵	연결더미	이동할_맵	사용가능더미	사용가능종족	
-dpgoto_ac_grsp	NeutralA	dpfrom_accretia_camp	제국군_점령지구HQ	1	00001	
-dpfrom_ac_grsp	0	0	0	0	00001	

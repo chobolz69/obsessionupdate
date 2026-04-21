@@ -1,7 +1,0 @@
-_str_code	_str_code	_str_code	_str_code	int	_str_code	END
-dm_code	link_map	link_dm	active_map	dummy_type	use_race	
-더미_식별코드	연결맵	연결더미	이동할_맵	사용가능더미	사용가능종족	
-dpgoto_cr_grsp	NeutralC	dpfrom_cora_camp	동맹군_점령지구HQ	1	00110	
-dpfrom_cr_grsp	0	0	0	0	00110	
-
-
