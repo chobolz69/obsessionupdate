@@ -1,0 +1,36 @@
+
+[Particle]
+entity_file .\Map\Entity\pvpwar\darkSette\pass_eff_01\pass_eff_01.r3e
+num 10
+live_time 4
+alpha_type 3
+start_alpha 0
+start_scale rand(0.1,0.5)
+start_zrot rand(0,360)
+
+
+time 2
+scale 2.0
+alpha 100
+zrot rand(80,160)
+
+time 3
+scale 3.5
+alpha 210
+zrot rand(80,160)
+
+time 4
+scale 9
+alpha 0
+zrot rand(80,160)
+
+
+
+
+
+
+
+
+
+
+end

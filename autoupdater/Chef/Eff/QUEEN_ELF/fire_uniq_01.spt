@@ -1,0 +1,48 @@
+[Particle]
+entity_file .\Chef\Eff\QUEEN_ELF\smoke_3\smoke_3.R3E
+num	15
+pos box  rand(-0.5,0.5) rand(-0.5,0.5) 0
+live_time 3.2
+time_speed 1
+gravity	-3 0 0
+always_live
+	;start_time_range 0.3
+	start_power  0 0 0
+	start_scale rand(0.1,1)
+	start_alpha 0
+	start_color 200 255 0
+	;start_zrot rand(0,360)
+alpha_type 3
+z_front -0.1
+	
+	
+time 1
+	alpha 100
+	;scale rand(0.5,1)
+	ZROT  rand(-20,20)
+	color 200 255 0
+
+time 1.5
+	alpha 200
+	;scale rand(3,4)
+	ZROT rand(-20,20)
+	color 150 150 150
+
+time 2.5
+	alpha 150
+	;scale rand(4,5)
+	ZROT rand(-20,20)
+	color 200 255 0
+
+time 3
+	alpha 50
+	;scale rand(3,4)
+	;ZROT rand(-20,20)
+
+time 3.2
+	alpha 0
+	;scale rand(3,4)
+	ZROT rand(-20,20)
+	color 150 150 150
+
+end

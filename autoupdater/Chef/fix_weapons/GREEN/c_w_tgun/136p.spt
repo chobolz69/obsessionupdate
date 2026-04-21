@@ -1,0 +1,28 @@
+;일렉트릭뻗어나가는버젼
+
+[Particle]
+
+entity_file  .\Chef\Unick_up\C_W_TGUN\136p\elec.R3E
+num 15
+pos box 0 0 0
+
+live_time 0.8
+time_speed 1
+gravity 0 0 0
+	start_power -3 0 0
+	start_scale 0.7
+	start_color 10 99 3
+	start_alpha 255
+	start_zrot rand(0,360)
+	alpha_type 3
+
+z_front -0.5
+
+time 0.8
+	zrot rand(-10,10)
+	color 41 190 30
+	alpha 255
+	scale 0.7
+
+
+end

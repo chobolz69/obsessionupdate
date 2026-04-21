@@ -1,0 +1,45 @@
+//최대트랙갯수11개
+
+
+[Particle]
+entity_file .\Map\Entity\e_battledungeon2\blk_smk\smk.r3e
+num 50
+
+pos box rand(-5,5) 10 rand(-5,5)
+
+live_time 20
+time_speed 2
+gravity	0 0.5 0
+;emit_time 10
+	;start_time_range 0.8
+	start_color 255 255 255 
+	start_scale 0.1
+	start_alpha 0
+	;start_power 0 rand(0,5) 0  ;박스형태
+	start_power rand(-1,1) rand(3,4) rand(-1,1)
+	start_zrot rand(0,180)
+
+alpha_type 1
+
+time 2
+scale rand(0.3,0.7)
+alpha 100
+zrot 10
+color 200 200 200
+
+time 3
+alpha 255
+zrot 10
+color 100 100 100
+
+
+time 10
+color 50 50 50
+alpha 255
+zrot 90
+
+time 20
+color 0 0 0
+scale 1
+alpha 0
+zrot 90

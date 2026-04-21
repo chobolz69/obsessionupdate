@@ -1,0 +1,38 @@
+;일렉트릭뻗어나가는버젼
+
+[Particle]
+
+entity_file  .\Chef\Unick_up\C_W_TSWORD\399p\elec03.R3E
+num 15
+pos box -19 0.3 0
+
+live_time 2.2
+time_speed 1
+gravity 5 0 0
+	start_power 5 0 0
+	start_scale 2
+	start_color 255 255 255
+	start_alpha 0
+	start_zrot rand(0,360)
+	alpha_type 3
+
+z_front -0.1
+;special_id 3
+
+
+time 0.5
+	zrot  rand(-10,10)
+	alpha 255
+	scale 2
+	color 255 255 255
+time 1.5
+	zrot  rand(-50,50)
+	alpha 255
+	scale 2
+	color 255 255 255
+	time 2.2
+	zrot rand(-10,10)
+	color 255 55 50
+	alpha 0
+	scale 1.5
+

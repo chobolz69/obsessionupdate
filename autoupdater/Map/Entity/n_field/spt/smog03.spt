@@ -1,0 +1,53 @@
+//최대트랙갯수11개
+
+
+[Particle]
+entity_file .\map\entity\n_field\blk_smk\smk.r3e
+num	15
+pos box rand(-200, 200) rand(50,80) rand(-200, 200)
+live_time 50
+time_speed 5
+gravity	0 0 0
+start_color 150 150 150
+start_scale rand(5,6)
+start_alpha 55
+start_zrot rend(0,360)
+alpha_type 1
+
+
+
+
+
+time 10
+power rand(-0.3,0.3) 0 rand(-0.3,0.3)
+alpha 150
+color 100 100 100
+scale rand(6,7)
+
+time 20
+alpha 100
+power rand(-0.3,0.3) 0 rand(-0.3,0.3)
+color 50 50 50
+scale rand(7,8)
+
+
+time 30
+power rand(-0.3,0.3) 0 rand(-0.3,0.3)
+alpha 50
+start_scale rand(3,3.5)
+color 50 50 50
+scale rand(8,9)
+
+
+
+time 50
+power rand(-0.3,0.3) 0 rand(-0.3,0.3)
+alpha 0
+color 0 0 0
+scale rand(9,10)
+
+
+
+
+
+end

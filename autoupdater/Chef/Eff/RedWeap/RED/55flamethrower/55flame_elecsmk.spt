@@ -1,0 +1,24 @@
+[Particle]
+
+entity_file .\Chef\Eff\RedWeap\RED\55flamethrower\55FLAME_ElecSMK\aura.R3E
+num 15
+pos box 0 0 0
+
+live_time 1.5
+time_speed 1
+gravity 0 0 0
+	start_power -4 0 0
+	start_scale 1.5
+	start_color 255 150 150
+	start_alpha 30
+	start_zrot rand(0,360)
+	alpha_type 3
+
+z_front -0.1
+
+time 1.5
+	zrot rand(-10,10)
+	color 255 150 150
+	alpha 30
+	scale 1.5
+end

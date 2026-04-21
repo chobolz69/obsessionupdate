@@ -1,0 +1,28 @@
+[Particle]
+entity_file .\Chef\Unit\B_tranship\1424p\up.R3E
+num 5
+pos box   0 0 0
+live_time 3
+time_speed 5
+	gravity 0 0 2
+	start_scale 0
+	start_power 0 0 15
+	start_alpha 200
+	start_color  100 100 255
+	start_zrot rand(-180,180)
+
+alpha_type 3
+
+
+time 2
+	color 100 100 255
+	alpha 100
+	scale rand(25,25.5)
+	zrot rand(-360,360)
+
+
+time 3
+	color 100 100 255
+	alpha 10
+	scale rand(28,30)
+	zrot rand(-360,360)

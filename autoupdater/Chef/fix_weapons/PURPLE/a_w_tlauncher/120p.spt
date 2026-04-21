@@ -1,0 +1,37 @@
+;직진형태
+
+[Particle]
+
+entity_file .\Chef\Unick_up\A_W_TLAUNCHER\120p\aura.R3E
+num	8
+pos box 0 0 0
+
+live_time 4
+time_speed 1
+gravity	0 0 0
+         start_color 63 37 170
+         start_scale rand(6,9)
+	 start_alpha 0
+alpha_type 3
+         
+z_front -0.1
+
+time 0.5
+         alpha 50
+         scale 7
+         color 115 50 166
+
+
+
+time 2
+
+	 alpha 100
+         color 170 62 161
+	 scale 4
+
+time 4
+
+
+         alpha 0
+         scale 0.1
+end

@@ -1,0 +1,392 @@
+//캐릭터의 등록...
+[Object]
+
+
+*b_01 .\Chef\RealTime_00\Mesh\Trans.msh
+texpath .\Chef\RealTime_00\TEX
+BONE  .\Chef\RealTime_00\Bone\Trans.bn
+ani 	.\Chef\RealTime_00\Ani\Trans.ani
+mesh_id 10
+color 255 255 255
+_collision
+
+
+*b_02 .\Chef\RealTime_00\Mesh\fight_b.msh
+texpath .\Chef\RealTime_00\TEX
+BONE  .\Chef\RealTime_00\Bone\fight_b.bn
+ani 	.\Chef\RealTime_00\Ani\fight_b.ani
+mesh_id 5
+color 255 255 255
+_collision
+
+
+*b_03 .\Chef\RealTime_00\Mesh\fight_r.msh
+texpath .\Chef\RealTime_00\TEX
+BONE  .\Chef\RealTime_00\Bone\fight_r.bn
+ani 	.\Chef\RealTime_00\Ani\fight_r.ani
+mesh_id 7
+color 255 255 255
+_collision
+
+
+*b_04 .\Chef\RealTime_00\Mesh\fight_l.msh
+texpath .\Chef\RealTime_00\TEX
+BONE  .\Chef\RealTime_00\Bone\fight_l.bn
+ani 	.\Chef\RealTime_00\Ani\fight_l.ani
+mesh_id 6
+color 255 255 255
+_collision
+
+
+*b_06 .\Chef\RealTime_00\Mesh\fight_l.msh
+texpath .\Chef\RealTime_00\TEX
+BONE  .\Chef\RealTime_00\Bone\fight_l.bn
+ani 	.\Chef\RealTime_00\Ani\fight_l.ani
+mesh_id 6
+color 255 255 255
+_collision
+
+
+*b_07 .\Chef\RealTime_00\Mesh\fight_r.msh
+texpath .\Chef\RealTime_00\TEX
+BONE  .\Chef\RealTime_00\Bone\fight_r.bn
+ani 	.\Chef\RealTime_00\Ani\fight_r.ani
+mesh_id 7
+color 255 255 255
+_collision
+
+
+*b_09 .\Chef\RealTime_00\Mesh\fight_b.msh
+texpath .\Chef\RealTime_00\TEX
+BONE  .\Chef\RealTime_00\Bone\fight_b.bn
+ani 	.\Chef\RealTime_00\Ani\fight_b.ani
+mesh_id 5
+color 255 255 255
+_collision
+
+
+*b_10 .\Chef\RealTime_00\Mesh\fight_l.msh
+texpath .\Chef\RealTime_00\TEX
+BONE  .\Chef\RealTime_00\Bone\fight_l.bn
+ani 	.\Chef\RealTime_00\Ani\fight_l.ani
+mesh_id 6
+color 255 255 255
+_collision
+
+
+*b_11 .\Chef\RealTime_00\Mesh\fight_r.msh
+texpath .\Chef\RealTime_00\TEX
+BONE  .\Chef\RealTime_00\Bone\fight_r.bn
+ani 	.\Chef\RealTime_00\Ani\fight_r.ani
+mesh_id 7
+color 255 255 255
+_collision
+
+
+*b_13 .\Chef\RealTime_00\Mesh\fight_b.msh
+texpath .\Chef\RealTime_00\TEX
+BONE  .\Chef\RealTime_00\Bone\fight_b.bn
+ani 	.\Chef\RealTime_00\Ani\fight_b.ani
+mesh_id 5
+color 255 255 255
+_collision
+
+
+*b_15 .\Chef\RealTime_00\Mesh\fight_b.msh
+texpath .\Chef\RealTime_00\TEX
+BONE  .\Chef\RealTime_00\Bone\fight_b.bn
+ani 	.\Chef\RealTime_00\Ani\fight_b.ani
+mesh_id 5
+
+
+color 255 255 255
+_collision
+
+
+*b_16 .\Chef\RealTime_00\Mesh\fight_r.msh
+texpath .\Chef\RealTime_00\TEX
+BONE  .\Chef\RealTime_00\Bone\fight_r.bn
+ani 	.\Chef\RealTime_00\Ani\fight_r.ani
+mesh_id 7
+color 255 255 255
+_collision
+
+
+*b_17 .\Chef\RealTime_00\Mesh\fight_l.msh
+texpath .\Chef\RealTime_00\TEX
+BONE  .\Chef\RealTime_00\Bone\fight_l.bn
+ani 	.\Character\bs1\fight_l.ani
+mesh_id 6
+color 255 255 255
+_collision
+
+
+*b_19 .\Chef\RealTime_00\Mesh\fight_r.msh
+texpath .\Chef\RealTime_00\TEX
+BONE  .\Chef\RealTime_00\Bone\fight_r.bn
+ani 	.\Chef\RealTime_00\Ani\fight_r.ani
+mesh_id 7
+color 255 255 255
+_collision
+
+
+*b_20 .\Chef\RealTime_00\Mesh\fight_b.msh
+texpath .\Chef\RealTime_00\TEX
+BONE  .\Chef\RealTime_00\Bone\fight_b.bn
+ani 	.\Chef\RealTime_00\Ani\fight_b.ani
+mesh_id 5
+color 255 255 255
+_collision
+
+
+
+*b_21 .\Chef\RealTime_00\Mesh\fight_l.msh
+texpath .\Chef\RealTime_00\TEX
+BONE  .\Chef\RealTime_00\Bone\fight_l.bn
+ani 	.\Chef\RealTime_00\Ani\fight_l.ani
+mesh_id 6
+color 255 255 255
+_collision
+
+
+*b_22 .\Chef\RealTime_00\Mesh\fight_l.msh
+texpath .\Chef\RealTime_00\TEX
+BONE  .\Chef\RealTime_00\Bone\fight_l.bn
+ani 	.\Chef\RealTime_00\Ani\fight_l.ani
+mesh_id 6
+color 255 255 255
+_collision
+
+
+*b_23 .\Chef\RealTime_00\Mesh\fight_r.msh
+texpath .\Chef\RealTime_00\TEX
+BONE  .\Chef\RealTime_00\Bone\fight_r.bn
+ani 	.\Chef\RealTime_00\Ani\fight_r.ani
+mesh_id 7
+color 255 255 255
+_collision
+
+
+*b_26 .\Chef\RealTime_00\Mesh\fight_l.msh
+texpath .\Chef\RealTime_00\TEX
+BONE  .\Chef\RealTime_00\Bone\fight_l.bn
+ani 	.\Chef\RealTime_00\Ani\fight_l.ani
+mesh_id 6
+color 255 255 255
+_collision
+
+
+*b_27 .\Chef\RealTime_00\Mesh\fight_r.msh
+texpath .\Chef\RealTime_00\TEX
+BONE  .\Chef\RealTime_00\Bone\fight_r.bn
+ani 	.\Chef\RealTime_00\Ani\fight_r.ani
+mesh_id 7
+color 255 255 255
+_collision
+
+
+*b_28 .\Chef\RealTime_00\Mesh\fight_b.msh
+texpath .\Chef\RealTime_00\TEX
+BONE  .\Chef\RealTime_00\Bone\fight_b.bn
+ani 	.\Chef\RealTime_00\Ani\fight_b.ani
+mesh_id 5
+color 255 255 255
+_collision
+
+
+*b_29 .\Chef\RealTime_00\Mesh\fight_b.msh
+texpath .\Chef\RealTime_00\TEX
+BONE  .\Chef\RealTime_00\Bone\fight_b.bn
+ani 	.\Chef\RealTime_00\Ani\fight_b.ani
+mesh_id 5
+color 255 255 255
+_collision
+
+
+*b_31 .\Chef\RealTime_00\Mesh\fight_l.msh
+texpath .\Chef\RealTime_00\TEX
+BONE  .\Chef\RealTime_00\Bone\fight_l.bn
+ani 	.\Chef\RealTime_00\Ani\fight_l.ani
+mesh_id 6
+color 255 255 255
+_collision
+
+
+*b_32 .\Chef\RealTime_00\Mesh\fight_r.msh
+texpath .\Chef\RealTime_00\TEX
+bone	.\Chef\RealTime_00\fight_r.bn
+ani 	.\Chef\RealTime_00\Ani\fight_r.ani
+mesh_id 7
+color 255 255 255
+_collision
+
+
+*b_33 .\Chef\RealTime_00\Mesh\fight_b.msh
+texpath .\Chef\RealTime_00\TEX
+bone	.\Chef\RealTime_00\fight_b.bn
+ani 	.\Chef\RealTime_00\Ani\fight_b.ani
+mesh_id 5
+color 255 255 255
+_collision
+
+
+*b_34 .\Chef\RealTime_00\Mesh\Trans2.msh
+texpath .\Chef\RealTime_00\TEX
+bone	.\Chef\RealTime_00\Trans2.bn
+ani 	.\Chef\RealTime_00\Ani\Trans2.ani
+mesh_id 11
+color 255 255 255
+_collision
+
+
+*b_35 .\Chef\RealTime_00\Mesh\Trans2.msh
+texpath .\Chef\RealTime_00\TEX
+bone	.\Chef\RealTime_00\Trans2.bn
+ani 	.\Chef\RealTime_00\Ani\Trans2.ani
+mesh_id 11
+color 255 255 255
+_collision
+
+
+*b_36 .\Chef\RealTime_00\Mesh\PATROL_B.msh
+texpath .\Chef\RealTime_00\TEX
+bone	.\Chef\RealTime_00\PATROL_B.bn
+ani 	.\Chef\RealTime_00\Ani\PATROL_B.ani
+mesh_id 8
+color 255 255 255
+_collision
+
+
+*b_37 .\Chef\RealTime_00\Mesh\PATROL_R.msh
+texpath .\Chef\RealTime_00\TEX
+bone	.\Chef\RealTime_00\PATROL_R.bn
+ani 	.\Chef\RealTime_00\Ani\PATROL_R.ani
+mesh_id 9
+color 255 255 255
+_collision
+
+
+*b_38 .\Chef\RealTime_00\Mesh\PATROL_B.msh
+texpath .\Chef\RealTime_00\TEX
+bone	.\Chef\RealTime_00\PATROL_B.bn
+ani 	.\Chef\RealTime_00\Ani\PATROL_B.ani
+mesh_id 8
+color 255 255 255
+_collision
+
+
+*b_39 .\Chef\RealTime_00\Mesh\PATROL_R.msh
+texpath .\Chef\RealTime_00\TEX
+bone	.\Chef\RealTime_00\PATROL_R.bn
+ani 	.\Chef\RealTime_00\Ani\PATROL_R.ani
+mesh_id 9
+color 255 255 255
+_collision
+
+
+*b_40 .\Chef\RealTime_00\Mesh\trans2.msh
+texpath .\Chef\RealTime_00\TEX
+bone	.\Chef\RealTime_00\trans2.bn
+ani 	.\Chef\RealTime_00\Ani\\trans2.ani
+mesh_id 11
+color 255 255 255
+_collision
+
+
+*b_41 .\Chef\RealTime_00\Mesh\trans2.msh
+texpath .\Chef\RealTime_00\TEX
+bone	.\Chef\RealTime_00\trans2.bn
+ani 	.\Chef\RealTime_00\Ani\trans2.ani
+mesh_id 11
+color 255 255 255
+_collision
+
+
+
+
+;동영상 시작시 셋팅값이다.
+[PrepareTrack]
+total_frame     2000
+*b_01 *Dummy01
+*b_02 *Dummy02
+*b_03 *Dummy03
+*b_04 *Dummy04
+*b_06 *Dummy06
+*b_07 *Dummy07
+*b_09 *Dummy09
+*b_10 *Dummy10
+*b_11 *Dummy11
+*b_13 *Dummy13
+*b_15 *Dummy15
+*b_16 *Dummy16
+*b_17 *Dummy17
+*b_19 *Dummy19
+*b_20 *Dummy20
+*b_21 *Dummy21
+*b_22 *Dummy22
+*b_23 *Dummy23
+*b_26 *Dummy26
+*b_27 *Dummy27
+*b_28 *Dummy28
+*b_29 *Dummy29
+*b_31 *Dummy31
+*b_32 *Dummy32
+*b_33 *Dummy33
+*b_34 *Dummy34
+*b_35 *Dummy35
+*b_36 *Dummy36
+*b_37 *Dummy37
+*b_38 *Dummy38
+*b_39 *Dummy39
+*b_40 *Dummy40
+*b_41 *Dummy41
+
+
+ani *b_01 0
+ani *b_02 0
+ani *b_03 0
+ani *b_04 0
+ani *b_06 0
+ani *b_07 0
+ani *b_09 0
+ani *b_10 0
+ani *b_11 0
+ani *b_13 0
+ani *b_15 0
+ani *b_16 0
+ani *b_17 0
+ani *b_19 0
+ani *b_20 0
+ani *b_21 0
+ani *b_22 0
+ani *b_23 0
+ani *b_26 0
+ani *b_27 0
+ani *b_28 0
+ani *b_29 0
+ani *b_31 0
+ani *b_32 0
+ani *b_33 0
+ani *b_34 0
+ani *b_35 0
+ani *b_36 0
+ani *b_37 0
+ani *b_38 0
+ani *b_39 0
+ani *b_40 0
+ani *b_41 0
+
+
+
+camera	*camera01	;시작 카메라는 camera01이다.
+_fade_out 0
+_no_camera		;카메라 강제진행이 아닌경우.
+logo
+wide
+
+
+;여기서 부터 동영상 트랙이다... 
+;명령어들은 계속적으로 추가예정...
+[Track]
+*frame 1
+camera	 *camera01

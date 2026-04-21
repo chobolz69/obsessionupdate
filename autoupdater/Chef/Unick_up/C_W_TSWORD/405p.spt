@@ -1,0 +1,23 @@
+[Particle]
+entity_file .\Chef\Unick_up\C_W_TSWORD\405p\2593.r3e
+num 2
+pos box -19 rand(-1.2,1.2) 0
+
+live_time 0.5
+time_speed 1
+gravity 0 0 0
+
+	start_scale rand(0.2,0.35)
+	start_color 255 255 255
+	start_alpha rand(200,255)
+	start_zrot rand(-6,6)
+	start_yrot rand(-5,5)
+
+alpha_type 3
+z_front -0.1
+
+no_billboard
+;free     
+
+time 0.5
+	alpha 0 

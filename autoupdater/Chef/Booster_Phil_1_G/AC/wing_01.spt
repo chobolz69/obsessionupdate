@@ -1,0 +1,32 @@
+[Particle]
+entity_file .\Chef\Booster_Phil_1_G\AC\wing_01\wing_01.R3E
+num	10
+pos box -0.2 0 0
+
+live_time 1.5
+time_speed 1
+gravity	0 0 0
+always_live
+
+         ;start_time_range 0.2
+         start_color 0 50 255
+         start_scale 0.8
+         start_alpha 0
+         ;start_zrot rand(0,360)
+
+
+alpha_type 3
+z_front -0.02
+no_billboard
+         
+
+time 1
+         alpha 50
+         color 255 255 255
+         scale 1
+
+time 1.5
+
+         alpha 0
+         color 255 255 255
+         scale 1.1

@@ -1,0 +1,36 @@
+일렉-기본(활용)
+
+[Particle]
+
+entity_file .\Chef\Infernal_Dragon_Weapon\GRELAUNCHER_193\TSWORD_106_particle_01\aura.R3E
+num 10
+pos box 0 0 0
+
+
+live_time 1.5
+time_speed 1
+gravity 0 0 0
+	
+	start_scale 2.5
+	start_color 255 255 255
+	start_alpha 0
+	start_zrot rand(0,360)
+	alpha_type 3
+
+z_front -0.1
+
+
+
+time 0.5
+	alpha 100
+	;zrot rand(-20,20)
+	color 255 50 0
+	;color 0 50 255
+
+
+
+time 1.5
+	alpha 0
+	zrot rand(-20,20)
+	scale 1
+	;color 255 255 255

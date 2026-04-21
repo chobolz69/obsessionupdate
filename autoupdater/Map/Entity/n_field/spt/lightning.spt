@@ -1,0 +1,42 @@
+
+[Particle]
+entity_file .\Map\Entity\n_field\lightning\lightning.r3e
+num 10
+live_time 4
+alpha_type 3
+start_alpha 0
+start_scale rand(0.2,2)
+flicker_alpha 10
+flicker_time 0.06
+
+start_zrot rand(0,360)
+no_billboard
+
+
+
+time 2
+alpha 70
+flicker
+
+
+time 3
+
+alpha 150
+
+
+
+time 4
+
+alpha 60
+
+
+
+
+
+
+
+
+
+
+
+end

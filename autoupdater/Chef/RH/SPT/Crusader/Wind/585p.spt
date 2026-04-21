@@ -1,0 +1,26 @@
+
+
+entity_file .\Chef\Mob02\ABELDIGAR\585p\aura.R3E
+num 2
+pos box 0 0 0
+
+live_time 1
+time_speed 0.1
+gravity 0 0 0
+	start_power 0 0 0
+	start_scale rand(2,3)
+	start_color 218 0 0
+	start_alpha 10
+	start_zrot rand(0,360)
+	alpha_type 3
+
+z_front -0.05
+
+time 0.5
+	alpha 150
+	scale rand(3,4)
+
+time 1
+	alpha 10
+	scale rand(2,3)
+end

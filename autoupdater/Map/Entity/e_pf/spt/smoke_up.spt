@@ -1,0 +1,36 @@
+
+[Particle]
+entity_file .\map\Entity\e_PF\smoke\smoke.R3E
+num	8
+pos box 0 0 0
+live_time 12
+time_speed 2.5
+gravity	0 5 0
+start_scale 0.1
+start_power -5 0 0
+create_time_epsilon 1
+start_alpha 0
+alpha_type 1
+
+time 2
+alpha 100
+scale 2
+power -3 0 0
+
+time 6
+alpha 150
+scale 3
+power -2 0 0
+
+
+time 9
+alpha 100
+scale 4
+power 5 0 0
+
+
+time 12
+alpha 0
+scale 6
+power 6 0 0
+end

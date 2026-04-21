@@ -1,0 +1,33 @@
+일렉-기본(활용)
+
+[Particle]
+
+entity_file .\Chef\Unick_up\C_W_RKNIFE\166p\aura.R3E
+num 10
+pos box -19 0 0
+
+live_time 1.5
+time_speed 1
+gravity 0 0 0
+	
+	start_scale 12
+	start_color 242 2 2
+	start_alpha 0
+	start_zrot rand(0,360)
+	alpha_type 3
+
+z_front -0.1
+
+
+
+time 0.5
+	alpha 255
+	;zrot rand(-20,20)
+	color 74 0 0
+time 1.5
+	color 122 0 0
+	scale 0.5
+	zrot rand(-20,20)
+	alpha 0
+
+end

@@ -1,0 +1,98 @@
+[Particle]
+
+entity_file .\Chef\fix_weapons\Lv30_BeamSword\elec\58013.R3E
+num 25
+pos box rand(-8,0) rand(-1,1) 0
+
+live_time 2
+time_speed 2
+gravity	0 0 0
+
+	;create_time_epsilon 1
+	start_power 0 0 0 
+	start_scale 0
+	start_color 255 255 255
+	start_alpha 0
+	star_zrot rand(0,360)
+	alpha_type 3
+;z_front -0.1
+
+time 0.1
+	alpha 255
+	;power rand(-10,0) 0 rand(-15,15)
+	;color 255 255 255
+	zrot rand(60,120)
+	scale rand(0.15,0.3)
+	
+time 0.3
+	alpha 255
+	;power rand(-10,0) 0 rand(-15,15)
+	;color 255 255 255
+	zrot rand(60,120)
+	scale rand(0.15,0.3)
+	
+time 0.5
+	alpha 255
+	;power rand(-10,0) 0 rand(-15,15)
+	;color 255 255 255
+	zrot rand(60,120)
+	scale rand(0.15,0.3)
+		
+time 0.7
+	alpha 255
+	;power rand(-10,0) 0 rand(-15,15)
+	;color 255 255 255
+	zrot rand(60,120)
+	scale rand(0.15,0.3)
+		
+time 0.9
+	alpha 255
+	;power rand(-10,0) 0 rand(-15,15)
+	;color 255 255 255
+	zrot rand(60,120)
+	scale rand(0.15,0.3)
+			
+time 1.1
+	alpha 255
+	;power rand(-10,0) 0 rand(-15,15)
+	;color 255 255 255
+	zrot rand(60,120)
+	scale rand(0.15,0.3)
+			
+time 1.3
+	alpha 255
+	;power rand(-10,0) 0 rand(-15,15)
+	;color 255 255 255
+	zrot rand(60,120)
+	scale rand(0.15,0.3)
+		
+time 1.5
+	alpha 255
+	;power rand(-10,0) 0 rand(-15,15)
+	;color 255 255 255
+	zrot rand(60,120)
+	scale rand(0.15,0.3)
+		
+time 1.7
+	alpha 255
+	;power rand(-10,0) 0 rand(-15,15)
+	;color 255 255 255
+	zrot rand(60,120)
+	scale rand(0.15,0.3)
+		
+time 1.9
+	alpha 255
+	;power rand(-10,0) 0 rand(-15,15)
+	;color 255 255 255
+	zrot rand(60,120)
+	scale rand(0.15,0.3)
+	
+time 2
+	alpha 0
+	power rand(-10,0) 0 rand(-15,15)
+	;color 255 250 0
+	zrot rand(60,120)
+	scale 0
+	
+	
+end

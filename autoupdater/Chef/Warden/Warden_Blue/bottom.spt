@@ -1,0 +1,29 @@
+[Particle]
+entity_file .\Chef\MIRAEL\BOOSTER\STREAMER\BOTTOM\shn.r3e
+num	20
+pos sphere_xz  10 rand(-3,1) 10
+live_time 2
+time_speed 1
+gravity 0 2 0
+
+	start_scale rand(0.3,0.9)
+	start_alpha 0
+	start_color rand(220,255) rand(120,135) rand(0,2)
+	start_yrot rand(0,180)
+	start_power   0 rand(-3,1)  0
+	
+alpha_type 3
+y_billboard
+z_front -0.3
+always_live
+
+time 1
+	alpha 200
+	
+
+
+time 2
+	alpha 0
+	
+
+end

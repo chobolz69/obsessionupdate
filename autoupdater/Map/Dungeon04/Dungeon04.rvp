@@ -1,0 +1,96 @@
+//캐릭터의 등록...
+[Object]
+
+;동영상 시작시 셋팅값이다.
+[PrepareTrack]
+total_frame	2686
+
+camera	*Camera01	;시작 카메라는 camera01이다.
+fade_out 0
+no_camera		;카메라 강제진행이 아닌경우.
+
+;여기서 부터 동영상 트랙이다... 
+;명령어들은 계속적으로 추가예정...
+[Track]
+*frame 5
+fade_in	65
+
+*frame 174
+fade_out 45
+
+*frame 219
+camera *Camera02
+
+*frame 220
+fade_in 45
+
+*frame 353
+fade_out 42
+
+*frame 395
+camera *Camera02_1
+
+*frame 400
+fade_in 45
+
+*frame 645
+fade_out 40
+
+*frame 685
+camera *Camera03
+
+*frame 687
+fade_in 40
+
+*frame 786
+fade_out 40
+
+*frame 826
+camera *Camera04
+
+*frame 828
+fade_in 25
+
+*frame 1154
+fade_out 25
+
+*frame 1179
+camera *Camera05
+
+*frame 1181
+fade_in 25
+
+*frame 1432
+fade_out 25
+
+*frame 1457
+
+camera *Camera06
+
+*frame 1459
+fade_in 25
+
+*frame 1729
+fade_out 25
+
+*frame 1754
+
+camera *Camera07
+
+*frame 1756
+fade_in 25
+
+*frame 1989
+fade_out 25
+
+*frame 2014
+
+camera *Camera08
+
+*frame 2016
+fade_in 25
+
+*frame 2320
+fade_out 25
+
+*frame 2345

@@ -1,0 +1,30 @@
+
+[Particle]
+entity_file .\Map\Entity\e_elfforest\fire_001\fire_001.r3e
+num	1
+~pos box rand(-2, 2) rand(-2, 2) rand(-2, 2)
+
+live_time 3
+time_speed 1
+gravity	0 0 0
+
+time 0
+alpha 210
+
+
+time 1
+alpha 120
+
+
+
+time 2
+alpha 180
+
+
+
+time 3
+alpha 240
+
+
+
+end

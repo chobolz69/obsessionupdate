@@ -1,0 +1,33 @@
+[Particle]
+
+entity_file .\Chef\Eff\RedWeap\RED\55machinegun\55MGun_rING\aura.R3E
+num	12
+pos box 0 0 0
+
+live_time 4
+time_speed 1.2
+gravity	0 0 0
+         start_color 255 0 0
+         start_scale rand(4,7)
+	 start_alpha 0
+alpha_type 3
+         
+z_front -0.1
+
+time 0.5
+         alpha 100
+         scale 6
+         color 255 0 0
+
+time 2
+
+	 alpha 150
+         color 255 0 0
+	 scale 3
+
+time 4
+
+
+         alpha 0
+         scale 0.1
+end

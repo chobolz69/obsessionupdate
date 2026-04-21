@@ -1,0 +1,16 @@
+[Particle]
+entity_file .\Chef\Eff\PLB\Purple\Mark\AuraGaming1\aura.R3E
+num	1
+pos box -4 -1 20
+gravity 0 0 0
+
+live_time 1
+time_speed 1.5
+gravity 0 0 0
+    start_power 0 0 0
+	start_scale 10
+	start_alpha 250
+	start_color 255 255 255
+	start_zrot rand(360,360)
+
+end

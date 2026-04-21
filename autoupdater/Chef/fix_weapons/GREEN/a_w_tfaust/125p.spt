@@ -1,0 +1,30 @@
+;직진형태
+
+[Particle]
+
+entity_file .\Chef\Unick_up\A_W_TFAUST\125p\aura.R3E
+num 20
+pos box -4 rand(-3.5,4) 0
+
+live_time 1
+time_speed 1
+gravity	0 5 5 
+	;creat_time_epsilon 3
+	start_color 14 147 4
+	start_scale 1
+	start_alpha 60
+	start_power rand(-2,2) rand(-2,2) rand(-2,2)
+	start_zrot rand(-360,360)
+	free
+
+z_front	-0.1
+alpha_type 3
+
+time 0.5
+	color 41 190 30
+	scale 10
+	alpha 0
+
+
+
+end

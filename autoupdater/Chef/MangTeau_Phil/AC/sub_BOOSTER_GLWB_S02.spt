@@ -1,0 +1,23 @@
+[Particle]
+entity_file .\Chef\MangTeau_Phil\AC\MOB_BOOSTER_GLOW\aura.R3E
+num 3
+pos box 0 0 0
+
+live_time 1
+time_speed 2
+gravity	0 0 0
+	;start_power rand(-0.02,0.02) rand(-0.02,0.02) rand(-0.02,0.02)
+	start_color 100 rand(100,100) 0
+	start_scale rand(1,1.2)
+	start_alpha 10
+
+
+
+z_front	-0.01
+alpha_type 3
+always_live
+
+
+time 1
+	scale rand(1.5,1.9)
+	color 200 rand(100,100) 0

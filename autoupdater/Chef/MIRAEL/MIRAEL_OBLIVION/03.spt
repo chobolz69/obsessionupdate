@@ -1,0 +1,43 @@
+[Particle]
+entity_file .\Chef\fix_weapons\Lv50_HORAKNIFE\spkl\spkl05.R3E
+num	8
+pos box rand(-7,1) rand(-1,1) 0
+
+live_time 2
+time_speed 2
+gravity	-0.3 0 0
+
+	;start_power rand(-15,15) rand(-15,15) rand(-15,15)
+	;start_time_range 0.5
+	start_color 255 255 255
+	start_scale rand(0.5,0.8)
+	start_zrot rand(0,360)
+	start_alpha 170
+	
+alpha_type 3
+z_front -0.1
+
+
+time 0.5
+	
+	;power rand(-15,15) rand(-15,15) rand(-15,15)
+	scale rand(0,2)
+	zrot rand(-30,30)
+	alpha 180
+
+time 1
+	
+	;power rand(-5,5) rand(-5,5) rand(-5,5)
+	scale rand(0,1.1)
+	zrot rand(-30,30)
+	alpha 180
+
+time 2
+	
+	;power rand(-5,5) rand(1,2) rand(-5,5)
+	scale rand(0,1)
+	zrot rand(-10,10)
+	alpha 0
+
+
+end

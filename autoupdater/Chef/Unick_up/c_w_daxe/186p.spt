@@ -1,0 +1,38 @@
+;직진형태
+
+[Particle]
+
+entity_file .\Chef\Unick_up\C_W_DAXE\186p\aura.R3E
+num 25
+pos box 0 rand(1,6.5) rand(-3,-2)
+
+live_time 3
+time_speed 1
+gravity 0 0 0.2
+	start_power rand(-0.2,0.2) rand(-0.2,0.2) rand(-0.2,0.2)
+	start_scale 2
+	start_color 150 30 20
+	start_alpha 0
+	start_zrot rand(0,360)
+	alpha_type 3
+
+z_front -0.1
+
+time 1
+	alpha 100
+	zrot rand(0,20)
+	scale 1.5
+	color 255 50 0
+	
+time 2
+	alpha 100
+	zrot rand(0,20)
+	scale 2.5
+	color 150 30 20
+
+time 3
+	color 150 30 20
+	zrot rand(0,20)
+	alpha 0
+	scale 4.5
+end

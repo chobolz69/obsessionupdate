@@ -1,0 +1,34 @@
+[Particle]
+entity_file .\chef\event\Good&Evil\Fire_in_the_horns\entity\crown\horns_crown.R3E
+num 8
+pos box 0 -0.36 0
+
+live_time 1
+time_speed 3
+gravity 0 0 0
+
+	;start_power 0 0 0
+	start_scale rand(0.45,0.58)
+	start_color 255 0 0
+	start_alpha 255
+	start_time_range 0.1
+
+alpha_type 3
+z_front 0
+no_billboard
+
+time 0.1
+	alpha 250
+	scale rand(0.45,0.58)
+	color 255 rand(190,230) rand(0,100)
+
+time 0.25
+	alpha 255
+	scale rand(0.45,0.58)
+	color 180 rand(90,110) 0
+
+time 1
+	alpha 100
+	scale rand(0.45,0.58)
+	color 120 rand(25,50) 0
+end

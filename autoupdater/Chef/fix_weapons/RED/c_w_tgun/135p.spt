@@ -1,0 +1,32 @@
+;직진형태
+
+[Particle]
+
+entity_file .\Chef\Unick_up\C_W_TGUN\135p\aura.R3E
+num 10
+pos box -1.6 -5 -1.6
+
+live_time 1.2
+time_speed 1
+gravity 1 2 0
+	start_power 1 1.5 0
+	start_scale 1
+	start_color 0 141 247
+	start_alpha 0
+	start_zrot rand(0,360)
+	alpha_type 3
+
+z_front -0.5
+
+time 0.5
+	zrot rand(-10,10)
+	color 0 141 247
+	alpha 150
+	scale 1.5
+	
+time 1.2
+	zrot rand(-10,10)
+	color 0 141 247
+	alpha 0
+	scale 2.5
+end

@@ -1,0 +1,47 @@
+[Particle]
+entity_file .\Chef\recall\isis\Fool_aura\aura.R3E
+num 20
+pos box -1.2 0 0
+
+live_time 3
+time_speed 1
+gravity 5.8 0 0
+	creat_time_epsilon 5
+	start_power -2 0 0
+	start_scale 2
+	start_color 0 145 255
+	start_alpha 0
+	start_zrot rand(0,90)
+	alpha_type 3
+z_front -0.1
+;no_Billboard
+
+time 0.5
+	alpha 50
+	scale 3
+	color 255 255 255
+	power 0 rand(-1,1) rand(-1,1)
+	yrot rand(-10,10)
+
+time 1.5
+	color 170 0 255
+	alpha 50
+	scale 6
+	power 0 rand(-1,1) rand(-1,1)
+	yrot rand(-10,10)
+
+
+time 2
+	alpha 120
+	scale 3
+	color 170 0 255
+	power 0 rand(-1,1) rand(-1,1)
+	yrot rand(-10,10)
+
+time 3
+	color 170 0 255
+	alpha 10
+	scale 2
+	power 0 0 0
+	yrot rand(-10,10)
+end

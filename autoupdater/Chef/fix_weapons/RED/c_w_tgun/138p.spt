@@ -1,0 +1,36 @@
+일렉-기본(활용)
+
+[Particle]
+
+entity_file .\Chef\Unick_up\C_W_TGUN\138p\aura.R3E
+num 10
+pos box 0.5 rand(-5,5) 0
+
+live_time 3
+time_speed 1
+gravity 0 0 0
+	
+	start_scale 1
+	start_color 123 7 7
+	start_alpha 0 
+	start_zrot rand(0,360)
+	alpha_type 3
+
+z_front -0.5
+
+
+
+time 0.5
+	alpha 150
+	zrot rand(-40,40)
+	color 0 141 247
+	scale 2
+
+time 3
+	color 0 141 247
+	zrot rand(-40,40)
+	alpha 0
+	scale 7
+
+
+end

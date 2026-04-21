@@ -1,0 +1,37 @@
+;직진형태
+
+[Particle]
+
+entity_file .\Chef\Unick_up\C_W_TRIFLE\199p\aura.R3E
+num	20
+pos box 4 0.5 -0.5 
+
+live_time 4
+time_speed 1
+gravity	0 0 0
+         start_color 63 37 170
+         start_scale rand(4,6)
+	 start_alpha 0
+alpha_type 3
+         
+z_front -0.1
+
+time 0.5
+         alpha 50
+         scale 3
+         color 115 50 166
+
+
+
+time 2
+
+	 alpha 100
+         color 170 62 161
+	 scale 2
+
+time 4
+
+
+         alpha 0
+         scale 0.1
+end

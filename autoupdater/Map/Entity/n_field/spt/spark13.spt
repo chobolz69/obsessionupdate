@@ -1,0 +1,33 @@
+
+[Particle]
+entity_file .\Map\entity\n_field\spark13\spark13.r3e
+num 1
+pos box 0 0 0
+live_time 10
+time_speed 1
+alpha_type 3
+start_alpha 255
+srart_zrot rand(0,360)
+gravity 0 0 0
+
+start_scale 0.3
+
+
+time 2
+alpha 150
+
+time 4
+alpha 255
+
+time 8
+alpha 200
+
+time 10
+alpha 0
+
+
+
+
+
+
+end

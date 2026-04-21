@@ -1,0 +1,46 @@
+
+[Particle]
+entity_file .\Map\Entity\n_field\fire_elf01\fire_elf01.r3e
+num 10
+pos box rand(-200, 200) rand(-9, -7) rand(-300, 300)
+
+
+
+live_time 40
+time_speed 5
+alpha_type 3
+start_alpha 0
+start_scale rand(1,3)
+gravity -0.2 0 0
+start_power rand(1,2) rand(0,1) 0
+
+
+
+
+time 10
+alpha 100
+power rand(-0.4,0.4) rand(-0.3,0) rand(-0.4,0.4)
+
+
+time 20
+alpha 200
+power rand(-0.4,0.4) rand(-0.3,0) rand(-0.4,0.4)
+
+
+time 30
+alpha 150
+power rand(-0.4,0.4) 0 rand(-0.4,0.4)
+
+
+time 40
+alpha 50
+power rand(-0.4,0.4) 0 rand(-0.4,0.4)
+
+
+
+
+
+
+
+
+end

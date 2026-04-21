@@ -1,0 +1,42 @@
+[Particle]
+
+entity_file .\Chef\Infernal_Dragon_Weapon\TSPEAR_193\Elf_Knife\Elf_Knife.R3E
+num 3
+pos box 0 0 -0.1
+
+live_time 4.5
+time_speed 1.8
+gravity	0 0 -0.6
+
+	create_time_epsilon 0.1
+	start_power 0 0 -1.9
+	;start_color 0 255 0
+	start_color 255 50 0
+	start_alpha 0
+	start_scale 1
+	start_zrot rand(0,180)
+
+alpha_type 3
+z_front -0.1
+no_Billboard
+
+
+time 0.5
+	alpha 150
+	zrot -60
+
+time 1
+	alpha 200
+	zrot -60
+
+time 3
+	alpha 200
+	zrot -240
+
+time 3.5
+	alpha 100
+	zrot -60
+
+time 4.5
+	alpha 0
+	zrot -120

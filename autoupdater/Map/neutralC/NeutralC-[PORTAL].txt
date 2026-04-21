@@ -1,0 +1,24 @@
+_str_code	_str_code	_str_code	_str_code	BOOL	int	int	_itm_code	int	_itm_code	int	_itm_code	int	int	_str_code	END
+dm_code	link_map	link_dm	active_map	NeedConCheck	NeedChrLevel	UpperLevelLim	NeedItem1	NeedItmCount1	NeedItem2	NeedItmCount2	NeedItem3	NeedItmCount3	dummy_type	use_race	
+더미_식별코드	연결맵	연결더미	이동할_맵	필요아이템여부	필요캐릭터레벨	상위레벨제한	필요아이템1	아이템1소모수	필요아이템2	아이템2소모수	필요아이템3	아이템3소모수	사용가능더미	사용가능종족	
+dpgoto_cora_camp	NeutralC	dpfrom_cora_HQ	동맹군_점령지구_전진캠프	0	-1	-1	-1	-1	-1	-1	-1	-1	1	00110	
+dpgoto_cora_HQ	NeutralC	dpfrom_cora_camp	동맹군_점령지구HQ	0	-1	-1	-1	-1	-1	-1	-1	-1	1	00110	
+dpgoto_resources	resources	dpfrom_cora_portal	크래그광산_동맹군_포탈	0	-1	-1	-1	-1	-1	-1	-1	-1	1	00110	
+dpgoto_neutralcs1_town	NeutralCS1	dpfrom_town	하람_성채	0	-1	-1	-1	-1	-1	-1	-1	-1	1	00110	
+dpgoto_neutralcs2_town	NeutralCS2	dpfrom_town	누메러스_성채	0	-1	-1	-1	-1	-1	-1	-1	-1	1	00110	
+dpgoto_neutralcs1	NeutralCS1	dpfrom_neutralc	하람섹터_방향	0	-1	-1	-1	-1	-1	-1	-1	-1	1	11111	
+dpgoto_transport01	Transport01	dpfrom_neutralc	카르텔라호_탑승	0	-1	-1	-1	-1	-1	-1	-1	-1	1	00110	
+dpgoto_Sette	Sette	dpfrom_cora_HQ	세트사막	0	-1	-1	-1	-1	-1	-1	-1	-1	1	00110	
+dpfrom_transport01	0	0	0	0	-1	-1	-1	-1	-1	-1	-1	-1	0	00110	
+dpfrom_neutralcs1	0	0	0	0	-1	-1	-1	-1	-1	-1	-1	-1	0	11111	
+dpfrom_cora_camp	0	0	0	0	-1	-1	-1	-1	-1	-1	-1	-1	0	00110	
+dpfrom_resources	0	0	0	0	-1	-1	-1	-1	-1	-1	-1	-1	0	00110	
+dpfrom_cora_HQ	0	0	0	0	-1	-1	-1	-1	-1	-1	-1	-1	0	00110	
+dpfrom_Sette	0	0	0	0	-1	-1	-1	-1	-1	-1	-1	-1	0	00110
+dpfrom_elan_cora	0	0	0	0	-1	-1	-1	-1	-1	-1	-1	-1	0	00110
+dp_zcnr01	0	0	0	0	-1	-1	-1	-1	-1	-1	-1	-1	2	00110
+dp_zcnb01	0	0	0	0	-1	-1	-1	-1	-1	-1	-1	-1	2	00110
+dp_gcnh01	0	0	0	0	-1	-1	-1	-1	-1	-1	-1	-1	3	00110
+dp_gcnh02	0	0	0	0	-1	-1	-1	-1	-1	-1	-1	-1	3	00110
+dp_gcnh03	0	0	0	0	-1	-1	-1	-1	-1	-1	-1	-1	3	00110
+dp_bdcr01	0	0	0	0	-1	-1	-1	-1	-1	-1	-1	-1	1	00110

@@ -1,0 +1,26 @@
+
+[Particle]
+entity_file .\map\Entity\e_PF\pf_ring\pf_ring.R3E
+num	15
+pos box 0 0 0
+live_time 30
+time_speed 2
+gravity	0 15 0
+start_scale 7.5
+start_power 0 0 0
+create_time_epsilon 0
+start_alpha 150
+alpha_type 3
+start_color 105 255 255
+no_billboard 
+
+time 1
+alpha 100
+color 105 255 255
+
+
+
+time 30
+alpha 0
+
+end

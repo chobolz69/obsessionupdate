@@ -1,0 +1,31 @@
+[Particle]
+
+entity_file .\Chef\PVP_Item\COM_WEAPON_TSWORD_117\771p\aura.R3E
+
+num 50
+pos box -0.8 rand(-1,11) -0.7
+
+live_time 1.5
+time_speed 2
+gravity 0 0 1
+	start_power 1 0.6 0
+	start_scale rand(2,3)
+	start_color rand(140,180) rand(0,10) rand(0,10)
+	start_alpha 0
+	start_zrot rand(0,360)
+
+alpha_type 3
+z_front -0.1
+
+time 0.5
+	alpha 120
+	zrot rand(-20,20)
+	scale rand(2,3)
+	color rand(140,180) rand(0,10) rand(0,10)
+
+time 1.5
+	color rand(140,180) rand(0,10) rand(0,10)
+	zrot rand(-40,40)
+	alpha 0
+	scale rand(1,2)
+end

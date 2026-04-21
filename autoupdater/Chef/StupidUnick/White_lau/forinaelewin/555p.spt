@@ -1,0 +1,33 @@
+
+
+[Particle]
+
+entity_file .\Chef\Mob02\FORINAELEWIN\555p\aura.R3E
+num 5
+pos box -1 -2 0
+
+live_time 1
+time_speed 0.2
+gravity 0 10 0
+	start_power rand(-1.5,1.5) rand(-1.5,1.5) rand(-1.5,1.5)
+	start_scale 5
+	start_color 255 150 50
+	start_alpha 0
+	start_zrot rand(0,360)
+	alpha_type 3
+
+z_front -0.1
+
+
+
+time 0.5
+	alpha 90
+	scale 7
+	color 255 150 50
+time 1
+	color 255 255 255
+	alpha 0
+	scale 7
+
+
+end

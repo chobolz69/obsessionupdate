@@ -1,0 +1,48 @@
+[Particle]
+entity_file  .\Chef\fix_weapons\Lv50_HORAKNIFE\smok_01\expl.R3E
+num	5
+pos box  0 0 0
+live_time 2
+time_speed 0.5
+gravity	0 0 0
+
+	;start_time_range 0.3
+	start_power rand(-0.1,0.1) 0 0
+	start_scale rand(0.01,0.03)
+	start_alpha 0
+	start_zrot rand(0,360)
+        start_color 0 0 0
+        
+       
+alpha_type 3
+z_front 0
+
+time 0.6
+
+	alpha 170
+	power rand(-0.1,0.1) 0 0
+	scale rand(0.03,0.05)
+	zrot rand(-30,30)
+	color rand(150,185) rand(0,70) 0
+
+time 1
+	alpha 120
+	power rand(-0.1,0.1) 0 0
+	scale rand(0.06,0.08)
+	zrot rand(-20,20)
+	color rand(150,185) rand(0,70) 0
+        
+
+
+time 1.6
+	alpha 10
+	power rand(-0.1,0.1) 0 0
+	scale rand(0.08,0.12)
+	zrot rand(-20,20)
+	color rand(150,185) rand(0,70) 0
+
+        
+
+
+
+end

@@ -1,0 +1,34 @@
+[Particle]
+
+entity_file .\Chef\Elf_Weapons\TSTAFF_144\smoke\smoke_3.R3E
+num 30
+pos box rand(-11.5,1) 0 0
+ 
+live_time 2
+time_speed 1.3
+gravity	0 2 0
+	start_color  240 255 0
+	start_alpha 50
+	start_zrot rand(0,360)
+	start_scale rand(0.2,0.3)
+alpha_type 3
+z_front -0.03
+
+time 0.5
+	alpha 200
+	color  240 255 0
+	scale rand(0.3,0.4)
+	zrot rand(-60,60)
+
+time 1
+	alpha 150
+	scale rand(0.2,0.3)
+	color  240 255 0
+	zrot rand(-60,60)
+
+time 2
+	alpha 0
+	scale rand(0.2,0.3)
+	color  240 255 0
+	zrot rand(-60,60)
+end

@@ -1,0 +1,29 @@
+[Particle]
+
+entity_file .\Chef\PVP_Item\PVP_KNIFE\788p\aura.R3E
+num 20
+pos box 0 0 0
+
+live_time 1.5
+time_speed 1.2
+gravity	0 0 0
+	start_color 55 255 0
+	start_scale rand(0.3,0.5)
+	start_alpha 0
+	start_zrot rand(0,360)
+	start_power rand(-1,1) rand(0,1.2) 0
+z_front	0
+alpha_type 3
+
+time 0.7
+	color 35 210 0
+	zrot rand(-50,50)
+	alpha 255
+	scale rand(0.5,0.7)
+
+time 1.5
+	color 20 150 0
+	scale 2
+	zrot rand(-50,50)
+	alpha 0
+end

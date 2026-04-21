@@ -1,0 +1,65 @@
+
+[Particle]
+entity_file .\Map\Entity\n_field\light_006\wave02.r3e
+num 15
+pos box rand(-50, 50) rand(0, 10) rand(-50, 50)
+start_zrot rand(0, 360)
+
+live_time 9
+time_speed 1
+alpha_type 3
+start_alpha 240
+start_scale 0.6
+gravity 0 0 0
+start_power rand(-1,1) rand(8,10) rand(-1,1) 
+~flicker_alpha 50
+~flicker_time 0.02
+~flicker
+
+
+time 1
+alpha 240
+scale 0.8
+power rand(-18,18) rand(-15,15) rand(-18,18) 
+zrot rand(0, 36)
+
+
+time 3
+alpha 240
+scale 1.2
+power rand(-18,18) rand(-15,15) rand(-18,18) 
+zrot rand(0, 36)
+
+time 5
+alpha 240
+scale 1.6
+power rand(-18,18) rand(-12,12) rand(-18,18) 
+~flicker
+zrot rand(0, 36)
+
+time 7
+alpha 180
+scale 1.2
+~flicker
+zrot rand(0, 36)
+color 200 200 200
+
+time 8
+alpha 140
+scale 0.8
+power rand(-20,20) rand(-10,10) rand(-20,20) 
+~flicker
+zrot rand(0, 36)
+color 100 100 100
+
+time 9
+alpha 0
+scale 0.4
+~power rand(-60,60) rand(-1,1) rand(-60,60) 
+zrot rand(0, 36)
+color 50 50 50
+
+
+
+
+end

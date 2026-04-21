@@ -1,0 +1,41 @@
+;직진형태
+
+[Particle]
+
+entity_file .\Chef\Unick_up\C_W_TBOW\410p\aura.R3E
+num 60
+pos box rand(-5,95) 0 0
+
+live_time 3.5
+time_speed 5
+gravity 3 5 0
+	;creat_time_epsilon 5
+	start_power 3 5 0
+	start_scale 1
+	start_color 255 255 255
+	start_alpha 0
+	start_zrot rand(0,360)
+	alpha_type 3
+        ;free
+
+z_front -0.1
+
+
+time 0.5
+	alpha 50
+	scale 1
+	color 0 0 255
+time 1
+	color 50 50 255
+	alpha 50
+	scale 2
+
+time 2.5
+	color 50 50 255
+	alpha 50
+	scale 3
+
+time 3.5
+	color 255 155 155
+	alpha 0
+	scale 0

@@ -1,0 +1,36 @@
+
+[Particle]
+entity_file .\Map\Entity\e_battledungeon2\sand_001\wave03.r3e
+num 3
+live_time 6
+time_speed 1.0
+alpha_type 3
+start_power rand(50,70) rand(0,10) rand(-10,10)
+start_alpha 0
+start_scale 1
+pos box rand(-150,150) rand(5,15) rand(-150,150)
+create_time_epsilon 0.3
+
+time 1.5
+scale 1.5
+alpha 1300
+
+time 4
+scale 3
+alpha 180
+power 0 0 rand(-5,5)
+zrot rand(10,30)
+
+time 6
+scale 5
+alpha 10
+zrot rand(10,30)
+
+
+
+
+
+
+
+
+

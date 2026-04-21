@@ -1,0 +1,331 @@
+//캐릭터의 등록...
+[Object]
+
+*b_01 .\Chef\RealTime_00\Mesh\fight_B.msh
+texpath .\Chef\RealTime_00\TEX
+bone	.\Chef\RealTime_00\Bone\fight_B.bn
+ani 	.\Chef\RealTime_00\Mesh\fight_B.ani
+mesh_id 5
+color 255 255 255
+_collision
+
+
+*b_02 .\Chef\RealTime_00\Mesh\fight_r.msh
+texpath .\Chef\RealTime_00\TEX
+bone	.\Chef\RealTime_00\Bone\fight_r.bn
+ani 	.\Chef\RealTime_00\Mesh\fight_r.ani
+mesh_id 7
+color 255 255 255
+_collision
+
+
+*b_03 .\Chef\RealTime_00\Mesh\fight_l.msh
+texpath .\Chef\RealTime_00\TEX
+bone	.\Chef\RealTime_00\Bone\fight_l.bn
+ani 	.\Chef\RealTime_00\Mesh\fight_l.ani
+mesh_id 6
+color 255 255 255
+_collision
+
+
+*b_04 .\Chef\RealTime_00\Mesh\fight_B.msh
+texpath .\Chef\RealTime_00\TEX
+bone	.\Chef\RealTime_00\Bone\fight_B.bn
+ani 	.\Chef\RealTime_00\Mesh\fight_B.ani
+mesh_id 5
+color 255 255 255
+_collision
+
+
+*b_05 .\Chef\RealTime_00\Mesh\fight_r.msh
+texpath .\Chef\RealTime_00\TEX
+bone	.\Chef\RealTime_00\Bone\fight_r.bn
+ani 	.\Chef\RealTime_00\Mesh\fight_r.ani
+mesh_id 7
+color 255 255 255
+_collision
+
+
+*b_06 .\Chef\RealTime_00\Mesh\fight_l.msh
+texpath .\Chef\RealTime_00\TEX
+bone	.\Chef\RealTime_00\Bone\fight_l.bn
+ani 	.\Chef\RealTime_00\Mesh\fight_l.ani
+mesh_id 6
+color 255 255 255
+_collision
+
+
+*b_07 .\Chef\RealTime_00\Mesh\fight_B.msh
+texpath .\Chef\RealTime_00\TEX
+bone	.\Chef\RealTime_00\Bone\fight_B.bn
+ani 	.\Chef\RealTime_00\Mesh\fight_B.ani
+mesh_id 5
+color 255 255 255
+_collision
+
+
+*b_08 .\Chef\RealTime_00\Mesh\fight_r.msh
+texpath .\Chef\RealTime_00\TEX
+bone	.\Chef\RealTime_00\Bone\fight_r.bn
+ani 	.\Chef\RealTime_00\Mesh\fight_r.ani
+mesh_id 7
+color 255 255 255
+_collision
+
+
+*b_09 .\Chef\RealTime_00\Mesh\fight_l.msh
+texpath .\Chef\RealTime_00\TEX
+bone	.\Chef\RealTime_00\Bone\fight_l.bn
+ani 	.\Chef\RealTime_00\Mesh\fight_l.ani
+mesh_id 6
+color 255 255 255
+_collision
+
+
+*b_10 .\Chef\RealTime_00\Mesh\fight_B.msh
+texpath .\Chef\RealTime_00\TEX
+bone	.\Chef\RealTime_00\Bone\fight_B.bn
+ani 	.\Chef\RealTime_00\Mesh\fight_B.ani
+mesh_id 5
+color 255 255 255
+_collision
+
+
+*b_11 .\Chef\RealTime_00\Mesh\fight_r.msh
+texpath .\Chef\RealTime_00\TEX
+bone	.\Chef\RealTime_00\Bone\fight_r.bn
+ani 	.\Chef\RealTime_00\Mesh\fight_r.ani
+mesh_id 7
+color 255 255 255
+_collision
+
+
+*b_12 .\Chef\RealTime_00\Mesh\fight_l.msh
+texpath .\Chef\RealTime_00\TEX
+bone	.\Chef\RealTime_00\Bone\fight_l.bn
+ani 	.\Chef\RealTime_00\Mesh\fight_l.ani
+mesh_id 6
+color 255 255 255
+_collision
+
+
+*b_13 .\Chef\RealTime_00\Mesh\fight_B.msh
+texpath .\Chef\RealTime_00\TEX
+bone	.\Chef\RealTime_00\Bone\fight_B.bn
+ani 	.\Chef\RealTime_00\Mesh\fight_B.ani
+mesh_id 5
+color 255 255 255
+_collision
+
+
+*b_14 .\Chef\RealTime_00\Mesh\fight_r.msh
+texpath .\Chef\RealTime_00\TEX
+bone	.\Chef\RealTime_00\Bone\fight_r.bn
+ani 	.\Chef\RealTime_00\Mesh\fight_r.ani
+mesh_id 7
+color 255 255 255
+_collision
+
+
+*b_15 .\Chef\RealTime_00\Mesh\fight_l.msh
+texpath .\Chef\RealTime_00\TEX
+bone	.\Chef\RealTime_00\Bone\fight_l.bn
+ani 	.\Chef\RealTime_00\Mesh\fight_l.ani
+mesh_id 6
+color 255 255 255
+_collision
+
+
+*b_16 .\Character\trans2\trans2.msh
+texpath .\Chef\RealTime_00\TEX
+bone	.\Character\trans2\trans2.bn
+ani 	.\Chef\RealTime_00\Ani\trans2.ani
+mesh_id 11
+color 255 255 255
+_collision
+
+
+*b_17 .\Character\trans2\trans2.msh
+texpath .\Chef\RealTime_00\TEX
+bone	.\Character\trans2\trans2.bn
+ani 	.\Chef\RealTime_00\Ani\trans2.ani
+mesh_id 11
+color 255 255 255
+_collision
+
+
+*b_18 .\Character\trans2\trans2.msh
+texpath .\Chef\RealTime_00\TEX
+bone	.\Character\trans2\trans2.bn
+ani 	.\Chef\RealTime_00\Ani\trans2.ani
+mesh_id 11
+color 255 255 255
+_collision
+
+
+*b_19 .\Chef\RealTime_00\Mesh\fight_B.msh
+texpath .\Chef\RealTime_00\TEX
+bone	.\Chef\RealTime_00\Bone\fight_B.bn
+ani 	.\Chef\RealTime_00\Mesh\fight_B.ani
+mesh_id 5
+color 255 255 255
+_collision
+
+
+*b_20 .\Chef\RealTime_00\Mesh\fight_r.msh
+texpath .\Chef\RealTime_00\TEX
+bone	.\Chef\RealTime_00\Bone\fight_r.bn
+ani 	.\Chef\RealTime_00\Mesh\fight_r.ani
+mesh_id 7
+color 255 255 255
+_collision
+
+
+*b_21 .\Chef\RealTime_00\Mesh\fight_l.msh
+texpath .\Chef\RealTime_00\TEX
+bone	.\Chef\RealTime_00\Bone\fight_l.bn
+ani 	.\Chef\RealTime_00\Mesh\fight_l.ani
+mesh_id 6
+color 255 255 255
+_collision
+
+
+*b_22 .\Character\patrol\PATROL_B.msh
+texpath .\Chef\RealTime_00\TEX
+bone	.\Character\patrol\PATROL_B.bn
+ani 	.\Character\patrol\PATROL_B.ani
+mesh_id 8
+color 255 255 255
+_collision
+
+
+*b_23 .\Character\patrol\PATROL_R.msh
+texpath .\Chef\RealTime_00\TEX
+bone	.\Character\patrol\PATROL_R.bn
+ani 	.\Character\patrol\PATROL_R.ani
+mesh_id 9
+color 255 255 255
+_collision
+
+
+*b_24 .\Character\patrol\PATROL_B.msh
+texpath .\Chef\RealTime_00\TEX
+bone	.\Character\patrol\PATROL_B.bn
+ani 	.\Character\patrol\PATROL_B.ani
+mesh_id 8
+color 255 255 255
+_collision
+
+
+*b_25 .\Character\patrol\PATROL_R.msh
+texpath .\Chef\RealTime_00\TEX
+bone	.\Character\patrol\PATROL_R.bn
+ani 	.\Character\patrol\PATROL_R.ani
+mesh_id 9
+color 255 255 255
+_collision
+
+
+*b_26 .\Character\accship\accship.msh
+texpath .\Chef\RealTime_00\TEX
+bone	.\Character\accship\accship.bn
+ani 	.\Character\accship\accship.ani
+mesh_id 12
+color 255 255 255
+_collision
+
+
+*b_27 .\Character\accship\accship.msh
+texpath .\Chef\RealTime_00\TEX
+bone	.\Character\accship\accship.bn
+ani 	.\Character\accship\accship.ani
+mesh_id 12
+color 255 255 255
+_collision
+
+
+*b_28 .\Character\accship\accship.msh
+texpath .\Chef\RealTime_00\TEX
+bone	.\Character\accship\accship.bn
+ani 	.\Character\accship\accship.ani
+mesh_id 12
+color 255 255 255
+_collision
+
+
+
+;동영상 시작시 셋팅값이다.
+[PrepareTrack]
+total_frame     2000
+*b_01 *Dummy01
+*b_02 *Dummy02
+*b_03 *Dummy03
+*b_04 *Dummy04
+*b_05 *Dummy05
+*b_06 *Dummy06
+*b_07 *Dummy07
+*b_08 *Dummy08
+*b_09 *Dummy09
+*b_10 *Dummy10
+*b_11 *Dummy11
+*b_12 *Dummy12
+*b_13 *Dummy13
+*b_14 *Dummy14
+*b_15 *Dummy15
+*b_16 *Dummy16
+*b_17 *Dummy17
+*b_18 *Dummy18
+*b_19 *Dummy19
+*b_20 *Dummy20
+*b_21 *Dummy21
+*b_22 *Dummy22
+*b_23 *Dummy23
+*b_24 *Dummy24
+*b_25 *Dummy25
+*b_26 *Dummy26
+*b_27 *Dummy27
+*b_28 *Dummy28
+
+ani *b_01 0
+ani *b_02 0
+ani *b_03 0
+ani *b_04 0
+ani *b_05 0
+ani *b_06 0
+ani *b_07 0
+ani *b_08 0
+ani *b_09 0
+ani *b_10 0
+ani *b_11 0
+ani *b_12 0
+ani *b_13 0
+ani *b_14 0
+ani *b_15 0
+ani *b_16 0
+ani *b_17 0
+ani *b_18 0
+ani *b_19 0
+ani *b_20 0
+ani *b_21 0
+ani *b_22 0
+ani *b_23 0
+ani *b_24 0
+ani *b_25 0
+ani *b_26 0
+ani *b_27 0
+ani *b_28 0
+
+
+camera	*camera01	;시작 카메라는 camera01이다.
+_fade_out 0
+_no_camera		;카메라 강제진행이 아닌경우.
+logo
+wide
+
+
+;여기서 부터 동영상 트랙이다... 
+;명령어들은 계속적으로 추가예정...
+[Track]
+*frame 1
+camera	 *camera01
+

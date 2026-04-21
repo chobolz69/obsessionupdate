@@ -1,0 +1,61 @@
+[Particle]
+entity_file .\Chef\MIRAEL\BOOSTER\KILLER\KILLER_TOP\aura.r3e
+num	3
+pos box 0 0 5
+
+live_time 10
+time_speed 0.6
+gravity 0 0 0
+         ;start_power 0 0 1
+	start_scale 1.2
+	;start_color 150 230 250
+	start_zrot rand(-360,360)
+	
+	
+alpha_type 3
+always_live
+;z_disable
+
+time 1
+	;color 150 250 250
+	scale 1.2
+	zrot rand(-30,30)
+	
+time 2
+	scale 1.2
+	zrot rand(-60,60)
+	
+time 3
+	scale 1.2
+	zrot rand(-90,90)
+      
+time 4
+	scale 1.2
+	zrot rand(-120,120)
+	
+time 5
+	scale 1.2
+	zrot rand(-150,150)
+
+time 6
+	scale 1.2
+	zrot rand(-180,180)
+	
+time 7
+	scale 1.2
+	zrot rand(-210,210)
+
+time 8
+	scale 1.2
+	zrot rand(-240,240)
+	
+time 9
+	scale 1.2
+	zrot rand(-270,270)
+
+time 10
+	scale 1.2
+	zrot rand(-300,300) 
+end
+
+

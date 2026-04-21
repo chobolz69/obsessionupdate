@@ -1,0 +1,71 @@
+;가장마지막연기
+
+[Particle]
+entity_file  .\Chef\fix_weapons\Lv30_BeamSword\smok\expl.R3E
+num	15
+pos box  0 0 0
+live_time 1.5
+time_speed 0.75
+gravity	0 0 0
+
+	;start_time_range 0.3
+	start_power 14 -12 0
+	start_scale rand(0.1,0.10)
+	start_alpha 250
+	start_zrot rand(0,360)
+        start_color 255 80 0
+        
+       
+alpha_type 3
+z_front -0.1
+
+time 0.3
+
+	alpha 100
+	power 13 22 0
+	start_scale rand(0.1,0.10)
+	zrot rand(-20,20)
+	color 255 80 0
+
+time 0.6
+	alpha 100
+	power 12 19 0
+	start_scale rand(0.1,0.10)
+	zrot rand(-20,20)
+        color 255 80 0
+
+time 0.9
+	alpha 100
+	power 0 20 0
+	start_scale rand(0.1,0.10)
+	zrot rand(-20,20)
+	color 255 80 0
+
+time 1.2
+	alpha 100
+	power 0 30 0
+	start_scale rand(0.1,0.10)
+	zrot rand(-20,20)
+	color 255 0 0
+
+time 1.3
+	alpha 100
+	power 0 30 0
+	start_scale rand(0.1,0.10)
+	zrot rand(-20,20)
+	color 255 0 0
+
+
+time 1.5
+	alpha 100
+	power 0 30 0
+	start_scale rand(0.1,0.10)
+	zrot rand(-20,20)
+        color 255 255 255
+
+        
+
+
+
+end
+

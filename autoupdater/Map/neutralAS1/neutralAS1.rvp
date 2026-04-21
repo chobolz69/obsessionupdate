@@ -1,0 +1,163 @@
+//캐릭터의 등록...
+[Object]
+
+*b_01  .\Chef\RealTime_00\Mesh\PATROL_B.msh
+texpath .\Chef\RealTime_00\TEX
+bone	.\Chef\RealTime_00\Bone\PATROL_B.bn
+ani 	.\Chef\RealTime_00\Ani\PATROL_B.ani
+mesh_id 8
+
+     
+color 255 255 255
+_collision
+
+
+*b_02 .\Chef\RealTime_00\Mesh\PATROL_R.msh
+texpath .\Chef\RealTime_00\TEX
+bone	.\Chef\RealTime_00\Bone\PATROL_R.bn
+ani 	.\Chef\RealTime_00\Ani\PATROL_R.ani
+mesh_id 9
+color 255 255 255
+_collision
+
+
+*b_03 .\Chef\RealTime_00\Mesh\PATROL_B.msh
+texpath .\Chef\RealTime_00\TEX
+bone	.\Chef\RealTime_00\Bone\PATROL_B.bn
+ani 	.\Chef\RealTime_00\Ani\PATROL_B.ani
+mesh_id 8
+
+   
+color 255 255 255
+_collision
+
+
+*b_04 .\Chef\RealTime_00\Mesh\PATROL_R.msh
+texpath .\Chef\RealTime_00\TEX
+bone	.\Chef\RealTime_00\Bone\PATROL_R.bn
+ani 	.\Chef\RealTime_00\Ani\PATROL_R.ani
+mesh_id 8
+color 255 255 255
+_collision
+
+
+*b_05 .\Chef\RealTime_00\Mesh\Bfly.msh
+texpath .\Chef\RealTime_00\TEX
+bone	.\Chef\RealTime_00\Bone\Bfly.bn
+ani 	.\Chef\RealTime_00\Ani\Bfly.ani
+mesh_id 4
+
+   
+color 255 255 255
+_collision
+
+
+*b_06 .\Chef\RealTime_00\Mesh\Bfly.msh
+texpath .\Chef\RealTime_00\TEX
+bone	.\Chef\RealTime_00\Bone\Bfly.bn
+ani 	.\Chef\RealTime_00\Ani\Bfly.ani
+
+mesh_id 4
+  
+color 255 255 255
+_collision
+
+
+*b_07 .\Chef\RealTime_00\Mesh\Bfly.msh
+texpath .\Chef\RealTime_00\TEX
+bone	.\Chef\RealTime_00\Bone\Bfly.bn
+ani 	.\Chef\RealTime_00\Ani\Bfly.ani
+mesh_id 4
+color 255 255 255
+_collision
+
+
+*b_08 .\Chef\RealTime_00\Mesh\Bfly.msh
+texpath .\Chef\RealTime_00\TEX
+bone	.\Chef\RealTime_00\Bone\Bfly.bn
+ani 	.\Chef\RealTime_00\Ani\Bfly.ani
+mesh_id 4
+color 255 255 255
+_collision
+
+
+*b_09 .\Chef\RealTime_00\Mesh\Bfly.msh
+texpath .\Chef\RealTime_00\TEX
+bone	.\Chef\RealTime_00\Bone\Bfly.bn
+ani 	.\Chef\RealTime_00\Ani\Bfly.ani
+mesh_id 4
+color 255 255 255
+_collision
+
+
+*b_10 .\Chef\RealTime_00\Mesh\accship.msh
+texpath .\Chef\RealTime_00\TEX
+bone	.\Chef\RealTime_00\Bone\accship.bn
+ani 	.\Chef\RealTime_00\Ani\accship.ani
+mesh_id 12
+color 255 255 255
+_collision
+
+
+*b_11 .\Chef\RealTime_00\Mesh\accship.msh
+texpath .\Chef\RealTime_00\TEX
+bone	.\Chef\RealTime_00\Bone\accship.bn
+ani 	.\Chef\RealTime_00\Ani\accship.ani
+mesh_id 12
+color 255 255 255
+_collision
+
+
+*b_12 .\Chef\RealTime_00\Mesh\accship.msh
+texpath .\Chef\RealTime_00\TEX
+bone	.\Chef\RealTime_00\Bone\accship.bn
+ani 	.\Chef\RealTime_00\Ani\accship.ani
+mesh_id 12
+color 255 255 255
+_collision
+
+
+
+;동영상 시작시 셋팅값이다.
+[PrepareTrack]
+total_frame     2000
+*b_01 *Dummy01
+*b_02 *Dummy02
+*b_03 *Dummy03
+*b_04 *Dummy04
+*b_05 *Dummy05
+*b_06 *Dummy06
+*b_07 *Dummy07
+*b_08 *Dummy08
+*b_09 *Dummy09
+*b_10 *Dummy10
+*b_11 *Dummy11
+*b_12 *Dummy12
+
+
+ani *b_01 0
+ani *b_02 0
+ani *b_03 0
+ani *b_04 0
+ani *b_05 0
+ani *b_06 0
+ani *b_07 0
+ani *b_08 0
+ani *b_09 0
+ani *b_10 0
+ani *b_11 0
+ani *b_12 0
+
+
+camera	*camera01	;시작 카메라는 camera01이다.
+_fade_out 0
+_no_camera		;카메라 강제진행이 아닌경우.
+logo
+wide
+
+
+;여기서 부터 동영상 트랙이다... 
+;명령어들은 계속적으로 추가예정...
+[Track]
+*frame 1
+camera	 *camera01

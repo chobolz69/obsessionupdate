@@ -1,0 +1,45 @@
+;직진형태
+
+[Particle]
+
+entity_file .\Chef\elf\METALELFROYALGUARD_B\667p\aura.R3E
+num 20
+pos box 0 0 0
+
+live_time 1.2
+time_speed 1
+gravity	0 -13 0
+	;creat_time_epsilon 3
+	start_color 255 50 0
+	start_scale 2
+	start_alpha 0
+	;start_power rand(-2,2) rand(-2,2) rand(-2,2)
+	start_zrot rand(-360,360)
+	;free
+
+z_front	-0.1
+alpha_type 3
+
+time 1
+	color 255 50 0
+	scale 2
+                  ;start_power rand(-2,2) rand(-2,2) rand(-2,2)
+	zrot rand(-20,20)
+	alpha 100
+        ;free
+
+time 1.2
+	color 255 50 0
+	scale2
+                  ;start_power rand(-2,2) rand(-2,2) rand(-2,2)
+	zrot rand(-20,20)
+	alpha 40
+        ;free
+
+time 2
+	color 255 50 0
+                  ;start_power rand(-2,2) rand(-2,2) rand(-2,2)
+	zrot rand(-20,20)
+	scale 2
+	alpha 0
+

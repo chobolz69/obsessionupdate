@@ -1,0 +1,19 @@
+
+[MagicTrack]
+
+create_type 2
+speed 200
+
+time 0
+entity_id 1431
+scale 0.1
+pos xyz 0 0 0
+
+time 0
+entity_id 1432
+scale 2
+
+time 0
+entity_id 1433  ;Èò¿¬±â
+
+end

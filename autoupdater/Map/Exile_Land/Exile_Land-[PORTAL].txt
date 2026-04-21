@@ -1,0 +1,15 @@
+_str_code	_str_code	_str_code	_str_code	BOOL	int	int	_itm_code	int	_itm_code	int	_itm_code	int	int	_str_code	END
+dm_code	link_map	link_dm	active_map	NeedConCheck	NeedChrLevel	UpperLevelLim	NeedItem1	NeedItmCount1	NeedItem2	NeedItmCount2	NeedItem3	NeedItmCount3	dummy_type	use_race	
+더미_식별코드	연결맵	연결더미	이동할_맵	필요아이템여부	필요캐릭터레벨	상위레벨제한	필요아이템1	아이템1소모수	필요아이템2	아이템2소모수	필요아이템3	아이템3소모수	사용가능더미	사용가능종족	
+dpgoto_mountain_beast	Mountain_Beast	dpfrom_exile_land	야수의_산	0	-1	-1	-1	-1	-1	-1	-1	-1	1	11111	
+dpfrom_mountain_beast	0	0	0	0	-1	-1	-1	-1	-1	-1	-1	-1	0	11111	
+dpgoto_dungeon03	Dungeon03	dpfrom_exile_land	미궁의_시공간	1	53	-1	irmap09	0	-1	-1	-1	-1	1	11111	
+dpfrom_dungeon03	0	0	0	0	-1	-1	-1	-1	-1	-1	-1	-1	0	11111	
+dpfrom_Cora	0	0	0	0	-1	-1	-1	-1	-1	-1	-1	-1	0	11111	
+															
+															
+															
+															
+															
+															
+															

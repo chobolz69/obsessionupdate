@@ -1,0 +1,39 @@
+[Particle]
+entity_file .\Chef\QG\SPT\NewMonster\Armadillo\ChestLogo\Mark.r3e
+num	10
+
+pos box rand(-6,6) rand(20,100) rand(-20,20)
+pos box 0 0.5 -0.02
+gravity 0 0 0
+
+live_time 4
+time_speed 0.5
+;gravity	0 0 -15
+	;start_power 0 0 0
+	start_scale 2.6
+	start_alpha 255
+	start_color 255 120 0
+	start_zrot rand (360,360)
+
+
+alpha_type 3
+z_front -0.02
+no_billboard
+;y_billboard
+
+
+time 0.5
+       alpha 150
+       scale 2.7 
+
+
+time 1
+       alpha 100
+       scale 2.8
+
+time 4
+       alpha 85
+       scale 2.6
+
+
+end

@@ -1,0 +1,38 @@
+;직진형태
+
+[Particle]
+
+entity_file .\Chef\Unick_up\A_W_TFLAME\128p\aura.R3E
+num 20
+pos box 5 2 0
+
+live_time 2.5
+time_speed 1
+gravity	-5 0 0 
+	;creat_time_epsilon 3
+	start_color 0 141 247
+	start_scale 5
+	start_alpha 0
+	start_power rand(-2,2) rand(-2,2) rand(-2,2)
+	start_zrot rand(-360,360)
+	;free
+
+z_front	-0.1
+alpha_type 3
+
+
+time 0.5
+	color 0 141 247
+	alpha 50
+
+time 1
+	color 0 141 247
+	alpha 100
+
+time 2.5
+	color 0 141 247
+	scale 10
+	zrot rand(-30,30)
+	alpha 0
+
+end

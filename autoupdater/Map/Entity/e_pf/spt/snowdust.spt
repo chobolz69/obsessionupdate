@@ -1,0 +1,48 @@
+;파티클 스크립트 
+;time명령은 곧 새로운 트랙이 된다는 의미.
+;시간은 빠른것부터 순차적으로 접근해주세요...
+;최대 8개의 타임트랙이 존재한다. -> 더 필요시 장언일에게 요청.
+;rand_xz 숫자   -> 마법시작부터 xz좌표로 렌덤한 좌표를 생성.
+;pos sphere 1 1 1  반지름 구범위안에서 생성한다.
+
+
+[Particle]
+entity_file .\map\entity\e_pf\snowdust\snowdust.r3e
+num	80
+live_time 30
+time_speed 5
+gravity	3 0 3
+start_color 255 255 255
+start_scale 1
+start_alpha 30
+alpha_type 3
+create_time_epsilon 0
+pos box rand( -700,700) rand( -50,50)  rand( -700,700) 
+-z_front -1
+start_zrot rand(0,180)
+
+
+
+time 10
+scale 3
+alpha 100
+zrot 10
+
+time 26
+alpha 70
+scale 2
+zrot 70
+
+time 30
+scale 1
+alpha 30
+color 0 0 0
+zrot 100
+
+
+
+
+
+
+
+end

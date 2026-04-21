@@ -1,0 +1,25 @@
+[Particle]
+entity_file .\Chef\Eff\RedWeap\RED\55bow\690p\aura.r3e
+num 60
+pos box rand(-3,3) -2 0
+
+live_time 0.5
+time_speed 3
+gravity 0 0 0
+
+	start_scale rand(0.06,0.08)
+        start_power rand(-2,2) rand(-2,2) rand(-2,2)
+	start_alpha 255
+	start_zrot rand(0, 360)
+	start_yrot rand(0, 360)
+
+alpha_type 3
+z_front -0.1
+y_billboard
+
+;no_billboard
+;free     
+
+time 0.5
+	alpha 0 
+end

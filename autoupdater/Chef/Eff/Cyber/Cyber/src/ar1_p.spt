@@ -1,0 +1,29 @@
+[Particle]
+entity_file .\Chef\Eff\Cyber\Cyber\src\aura1\aura.r3e
+num 10
+pos sphere_xz rand(2,7) 8 rand(0.5,7)
+
+live_time 2
+time_speed 2
+gravity	0 -5 0
+         ;start_time_range 0.5
+	start_scale rand(1,1.5)
+	start_power 0 rand(-8,2) 0
+	start_alpha 0
+	start_color 97 rand(166,255) rand(173,255)
+         
+alpha_type 3
+y_billboard
+always_live
+
+z_front 0.01
+
+time 1
+	alpha 255
+
+
+time 2
+	alpha 0
+
+
+end

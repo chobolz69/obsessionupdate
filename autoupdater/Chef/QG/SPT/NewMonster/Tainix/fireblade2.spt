@@ -1,0 +1,43 @@
+[Particle]
+entity_file .\Chef\Uniq\Smo00\aura\aura.R3E
+num	18
+pos box  rand(-0.5,0.5) rand(-0.5,0.5) 0
+live_time 3.2
+time_speed 0.5
+gravity	-2.8 0 0
+always_live
+	;start_time_range 0.3
+	start_power  0 0 0
+	start_scale 3
+	start_alpha 0
+	start_color 255 0 0
+	start_zrot rand(0,360)
+alpha_type 3
+z_front -0.1
+	
+time 1
+	alpha 60
+	scale rand(3,4)
+	ZROT  rand(-20,20)
+	color 255 0 0
+
+time 1.5
+	alpha 110
+	scale rand(3,5)
+	ZROT rand(-10,10)
+
+time 2.5
+	alpha 60
+	scale rand(4,6)
+	ZROT rand(-10,10)
+
+time 2.5
+	alpha 20
+	scale rand(5,7)
+	ZROT rand(-10,10)
+time 3.2
+	alpha 0
+	scale rand(6,8)
+	ZROT rand(-10,10)
+
+end

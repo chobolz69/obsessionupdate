@@ -1,0 +1,41 @@
+;직진형태
+
+[Particle]
+
+entity_file .\Chef\Eff\REDONE\Hallow_Knife\169p\aura.R3E
+num 35
+pos box rand(-1, 8) rand(0.5,1) 0
+
+live_time 3
+time_speed 2
+gravity 0 0 0 
+	creat_time_epsilon 5
+	start_power rand(-0.5,0.5) rand(-0.5,0.5) rand(-0.5,0.5)
+	start_scale 1
+	start_color 70 150 20
+	start_alpha 0
+	start_zrot rand(0,360)
+	alpha_type 3
+        ;free
+
+z_front -0.1
+
+
+time 1
+	alpha 255
+	power rand(-0.5,0.5) rand(-0.5,0.5) rand(-0.5,0.5)
+	scale 1.4
+	color 70 150 20
+	zrot rand(0,20)
+time 2
+	color 70 150 20
+	power rand(-0.5,0.5) rand(-0.5,0.5) rand(-0.5,0.5)
+	alpha 150
+	scale 1
+	zrot rand(0,20)
+time 3
+	color 70 150 20
+	power rand(-0.5,0.5) rand(-0.5,0.5) rand(-0.5,0.5)
+	alpha 0
+	scale 0
+end

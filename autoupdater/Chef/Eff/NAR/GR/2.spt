@@ -1,0 +1,30 @@
+[Particle]
+
+entity_file .\Chef\weapon_01\Sticks\Violet\glow_light_02\aura.r3e
+num 3
+pos box 0 0 0
+
+live_time 1
+time_speed 0.2
+gravity 0 0 0
+	start_power 0 0 0
+	start_scale 0.1
+	start_color 255 50 0
+	start_alpha 10
+	alpha_type 3
+	start_zrot rand(0,360)
+
+z_front -0.05
+
+time 0.5
+	scale rand(0.2.0.4,0.6)
+	alpha rand(200,255)
+	zrot rand(40,60)
+	color 255 70 0
+
+time 1
+	scale 0.8
+	alpha 10
+	zrot rand(-60,-40)
+	color 255 50 0
+end

@@ -1,0 +1,32 @@
+[Particle]
+entity_file .\Chef\Infernal_Dragon_Weapon\GRELAUNCHER_193\electricity_01\shield_01.R3E
+
+num	2
+
+pos box rand(-6,6) rand(-0.1,0.1) rand(-0.1,0.1)
+
+
+
+live_time 1
+time_speed 1
+gravity	0 1 0
+always_live
+
+	start_scale rand(0.5,1)
+	start_alpha 0
+	;start_color rand(200,255) rand(200,255) rand(200,255)
+	start_zrot rand(0,360)
+	flicker_alpha 30
+	flicker_time 0.1
+	
+;z_front	-0.05
+alpha_type 3
+;free
+
+time 0.5
+	alpha 80
+
+
+time 1
+	alpha 0
+	flicker

@@ -1,0 +1,37 @@
+;일렉-기본(활용)
+
+[Particle]
+
+entity_file .\Chef\Unick_up\C_W_TSPEAR\157p\rain.R3E
+num 5
+pos box 0 0 0
+live_time 1.5
+time_speed 1
+gravity 0 0 0
+	
+	start_scale rand (0.7,0.9)
+	;start_power rand(-0.2,0.2) rand(-0.2,0.2) rand(-0.2,0.2)
+	start_color 255 255 255
+	start_alpha 0
+	start_zrot rand(0,360)
+	alpha_type 3
+
+z_front -0.1
+
+
+
+time 0.5
+	alpha 150
+	color 255 50 50
+
+time 1
+	alpha 100
+	scale rand (1.5, 1.8)
+	color 255 255 255
+
+time 1.5
+	color 255 255 255
+	;scale rand(0.3, 1)
+	alpha 0
+
+end

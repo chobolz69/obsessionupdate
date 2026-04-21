@@ -1,0 +1,56 @@
+;===============================================================================
+; URL Information
+;===============================================================================
+[BOARD_SETTING]
+BOARD_MAXNUMBER	= 5
+
+[URL_NUM_0]
+;Server Free Board
+BOARD_NAME	= 서버별 자유 게시판
+URL		= http://rfonline.x2game.com/community/GameBoard/Server_list.asp
+SIZEX		= 680
+SIZEY		= 550
+TYPE		= 0;
+
+[URL_NUM_1]
+;Date Center
+BOARD_NAME	= 종합 상황실
+URL		= http://rfonline.x2game.com/DataCenter/Total.asp
+SIZEX		= 800
+SIZEY		= 600
+TYPE		= 1;
+
+[URL_NUM_2]
+;Trade_Center_List
+BOARD_NAME	= 트레이드 게시판
+URL		= http://rfonline.x2game.com/Community/GameBoard/trade_center_list.asp
+SIZEX		= 680
+SIZEY		= 550
+TYPE		= 0;
+
+[URL_NUM_3]
+;Guild_Board
+BOARD_NAME	= 길드 게시판
+URL		= http://rfonline.x2game.com/GUILDCAFE/game/index.asp
+SIZEX		= 680
+SIZEY		= 550
+TYPE		= 2;
+
+[URL_NUM_4]
+;Notice_Board
+BOARD_NAME	= RF TODAY
+URL		= http://rfonline.x2game.com/community/GameBoard/Comm_index.asp
+SIZEX		= 696
+SIZEY		= 576
+TYPE		= 3;
+
+
+;===============================================================================
+
+[BONUS_LIST]
+;Jewel BONUS_LIST
+BOARD_NAME	= 상품 목록
+URL		= http://rfonline.x2game.com/popup/popupBox/master_box_small.htm
+SIZEX		= 533
+SIZEY		= 567
+TYPE		= 1;

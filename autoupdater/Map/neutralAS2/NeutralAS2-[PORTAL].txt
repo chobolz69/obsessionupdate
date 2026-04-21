@@ -1,0 +1,16 @@
+RecordCount : 12
+NumField: 16
+RecordSize: 376
+
+[0] : 	dpgoto_neutralas1_town	NeutralAS1	dpfrom_town	Armory-213	0	-1	-1	-1	-1	-1	-1	-1	-1	1	00001
+[1] : 	dpgoto_accretia_hq	NeutralA	dpfrom_accretia_camp	제국군_점령지구HQ	0	-1	-1	-1	-1	-1	-1	-1	-1	1	00001
+[2] : 	dpgoto_resources	resources	dpfrom_accretia_portal	크래그광산_제국군_포탈	0	-1	-1	-1	-1	-1	-1	-1	-1	0	00001
+[3] : 	dpgoto_neutralcs1	NeutralCS1	dpfrom_neutralas2	하람성채간_통로	0	-1	-1	-1	-1	-1	-1	-1	-1	1	11111
+[4] : 	dpgoto_neutralas1a	NeutralAS1	dpfrom_neutralas2a	213섹터_방향	0	-1	-1	-1	-1	-1	-1	-1	-1	1	11111
+[5] : 	dpgoto_neutralas1b	NeutralAS1	dpfrom_neutralas2b	213섹터_방향	0	-1	-1	-1	-1	-1	-1	-1	-1	1	11111
+[6] : 	dpgoto_neutrala	NeutralA	dpfrom_neutralas2	제국군_점령지구_방향	0	-1	-1	-1	-1	-1	-1	-1	-1	1	00001
+[7] : 	dpfrom_neutralcs1	0	0	0	0	-1	-1	-1	-1	-1	-1	-1	-1	0	11111
+[8] : 	dpfrom_neutralas1a	0	0	0	0	-1	-1	-1	-1	-1	-1	-1	-1	0	11111
+[9] : 	dpfrom_neutralas1b	0	0	0	0	-1	-1	-1	-1	-1	-1	-1	-1	0	11111
+[10] : 	dpfrom_neutrala	0	0	0	0	-1	-1	-1	-1	-1	-1	-1	-1	0	11111
+[11] : 	dpfrom_town	0	0	0	0	-1	-1	-1	-1	-1	-1	-1	-1	0	00110

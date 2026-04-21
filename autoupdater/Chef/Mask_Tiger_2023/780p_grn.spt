@@ -1,0 +1,40 @@
+[Particle]
+
+entity_file .\Chef\Mask_Tiger_2023\780p\aura.R3E
+num 10
+pos box rand(-1.5,1.5) 0 0
+
+live_time 1.5
+time_speed 1
+gravity	0 4 0
+	start_color 138 255 46
+	start_scale rand(1,1.5)
+	start_alpha 70
+	start_zrot rand(0,360)
+	start_power rand(-1,1) rand(-1,1) rand(-1,1)
+
+z_front	-0.1
+alpha_type 3
+free
+
+
+time 0.5
+	color 0 0 255
+	zrot rand(-30,30)
+	alpha 150
+	scale rand(2,2.5)
+
+time 1
+	color 200 0 255
+        power rand(-1,1) rand(-1,1) rand(-1,1)
+	zrot rand(-30,30)
+	alpha 50
+	scale rand(3,4)
+
+
+time 1.5
+	color 200 0 255
+        power rand(-1,1) rand(-1,1) rand(-1,1)
+	scale 5
+	zrot rand(-30,30)
+	alpha 0

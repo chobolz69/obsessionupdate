@@ -1,0 +1,14 @@
+_str_code	_str_code	_str_code	_str_code	BOOL	int	int	_itm_code	int	_itm_code	int	_itm_code	int	int	_str_code	END
+dm_code	link_map	link_dm	active_map	NeedConCheck	NeedChrLevel	UpperLevelLim	NeedItem1	NeedItmCount1	NeedItem2	NeedItmCount2	NeedItem3	NeedItmCount3	dummy_type	use_race	
+더미_식별코드	연결맵	연결더미	이동할_맵	필요아이템여부	필요캐릭터레벨	상위레벨제한	필요아이템1	아이템1소모수	필요아이템2	아이템2소모수	필요아이템3	아이템3소모수	사용가능더미	사용가능종족	
+dpgoto_accretia_hq	NeutralA	dpfrom_Sette	제국군_점령지구HQ	0	-1	-1	-1	-1	-1	-1	-1	-1	1	00001	
+dpgoto_bellato_HQ	NeutralB	dpfrom_Sette	벨라토_점령지구HQ	0	-1	-1	-1	-1	-1	-1	-1	-1	1	11000	
+dpgoto_cora_HQ	NeutralC	dpfrom_Sette	코라_점령지구HQ	0	-1	-1	-1	-1	-1	-1	-1	-1	1	00110	
+dpgoto_Cauldron01	Cauldron01	dpfrom_Sette	콜드론_화산지대	1	40	-1	irmap01	1	-1	-1	-1	-1	1	11111	
+dpgoto_dungeon03	Dungeon03	dpfrom_sette	모래의_시공간	1	53	-1	irmap06	0	-1	-1	-1	-1	1	11111	
+dpgoto_Cora	Cora	dpfrom_sette	숨겨진_엘프의_땅	1	55	-1	irmap14	0	-1	-1	-1	-1	1	11111	
+dpfrom_accretia_hq	0	0	0	0	-1	-1	-1	-1	-1	-1	-1	-1	0	11111	
+dpfrom_bellato_HQ	0	0	0	0	-1	-1	-1	-1	-1	-1	-1	-1	0	11111	
+dpfrom_cora_HQ	0	0	0	0	-1	-1	-1	-1	-1	-1	-1	-1	0	11111	
+dpfrom_Cauldron01	0	0	0	0	-1	-1	-1	-1	-1	-1	-1	-1	0	11111	
+dpfrom_dungeon03	0	0	0	0	-1	-1	-1	-1	-1	-1	-1	-1	0	11111	

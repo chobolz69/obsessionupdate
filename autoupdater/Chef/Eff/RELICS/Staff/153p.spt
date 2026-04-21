@@ -1,0 +1,44 @@
+;검영역에 랜덤하게 나오는형식
+
+
+[Particle]
+
+entity_file .\Chef\Eff\RELICS\STAFF\153p\elec03.R3E
+num 15
+pos box -2 0 0
+
+live_time 1.3
+time_speed 1
+gravity 4 0 0
+	start_power 4 0 0
+	start_scale 2
+	start_color 145 0 255
+	start_alpha 0
+	start_zrot rand(0,360)
+	flicker_alpha 100
+	flicksr_tile 0.1
+	alpha_type 3
+
+z_front -0.5
+
+time 0.5
+	zrot  rand(-10,10)
+	alpha 255
+	scale 0.8
+	flicker
+	color 145 0 255
+time 1
+	zrot  rand(-50,50)
+	alpha 255
+	scale 0.8
+	flicker
+	color 145 0 255
+time 1.3
+	zrot rand(-10,10)
+	color 145 0 255
+	alpha 0
+	flicker
+	scale 1
+
+
+end

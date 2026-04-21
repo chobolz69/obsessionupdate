@@ -1,0 +1,59 @@
+[Particle]
+entity_file .\Chef\QG\SPT\[MONSTER]\4_Boggy\FIRE\CIRCLE\aura.r3e
+num	20
+pos box 0 -25 0
+
+live_time 10
+time_speed 0.6
+gravity 0 0 0
+         ;start_power 0 0 1
+	start_scale 0.2
+	start_color 250 120 0
+	start_alpha 150
+	
+	
+alpha_type 3
+always_live
+;z_disable
+
+time 1
+	color 250 0 0
+	scale 0.9
+	alpha 50
+	
+time 2
+	scale 0.9
+	alpha 80
+	
+time 3
+	scale 0.9
+	alpha 90
+      
+time 4
+	scale 0.9
+	alpha 100
+	
+time 5
+	scale 0.9
+	alpha 110
+
+time 6
+	scale 0.9
+	alpha 120
+	
+time 7
+	scale 0.9
+	alpha 130
+
+time 8
+	scale 0.9
+	alpha 140
+	
+time 9
+	scale 0.9
+	alpha 150
+
+time 10
+	scale 0.9
+	alpha 160 
+end

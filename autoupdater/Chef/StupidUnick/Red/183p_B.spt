@@ -1,0 +1,28 @@
+
+[Particle]
+
+entity_file .\Chef\70LV_ARMOR\Red\183p\aura.R3E
+num 3
+pos box -0.1 0 0
+
+live_time 1.5
+time_speed 1
+gravity 0 0 0
+	
+	start_scale 1
+	start_color 125 0 0
+	start_alpha 0
+	start_zrot rand(0,360)
+	alpha_type 3
+
+z_front -0.05
+
+
+
+time 0.5
+	alpha 255
+	;color 125 0 0
+
+time 1.5
+	color 125 0 0
+	alpha 0

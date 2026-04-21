@@ -1,0 +1,47 @@
+[Particle]
+entity_file .\Chef\TREE_0322\52693.R3E
+num	15
+
+pos box rand(-6,6) rand(-5,5) rand(-5,5)
+live_time 1.5
+time_speed 1
+gravity	0 -2 -1
+
+	start_scale rand(0.1,0.2)
+	start_power rand(-7,7) rand(-7,7) rand(-7,7)
+	start_alpha 0
+	start_color 210 105 30
+	start_zrot rand(0,360)
+	start_time_range 0.5
+	free
+
+check_collision
+elasticity 1.5
+alpha_type 3
+flicker_alpha 140
+flicker_time 0.08
+
+
+time 0.3
+alpha 255
+zrot rand(10,80)
+flicker
+
+time 1
+alpha 255
+zrot rand (-60,90)
+scale rand(0.2,0.3)
+flicker
+
+time 1.5
+alpha 255
+zrot rand (-140,120)
+flicker
+
+time 2
+color 210 105 30
+alpha 0
+flicker
+
+
+end

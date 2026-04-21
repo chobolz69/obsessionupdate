@@ -1,0 +1,32 @@
+[Particle]
+entity_file  .\Chef\Eff\WeapUnique\Thunder\Dual\catapult_firearm2\re.R3E
+num	6
+pos box rand(-5,0) rand(-0.5,0.5) rand(-0.5,0.5)
+
+live_time 1
+time_speed 1.5
+gravity	0 0 -1
+	start_color 255 255 255
+	start_scale rand(0.3,0.3)
+	start_alpha 0
+	;start_yrot rand(-10,10)
+	start_zrot rand(0,360)
+
+always_live
+;no_billboard
+z_front -0.03
+alpha_type 3
+;free
+
+time 0.5
+	scale rand(0.3,0.3)
+	zrot rand(-10,10)
+	color 255 255 255
+	alpha 150
+
+time 1
+	scale rand(0.3,0.3)
+	alpha 0
+	color 255 255 255
+	zrot rand(-60,60)
+end

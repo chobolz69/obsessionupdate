@@ -1,0 +1,63 @@
+[Particle]
+entity_file .\Chef\Mob01\narwindisil\nar_spr\Leg_00.R3E
+num 30
+pos box 0 0 0
+live_time 5
+time_speed 1
+gravity 0 1 0
+
+	start_scale rand(0.9, 2)
+	start_alpha 50
+	start_power rand(-2, 2) 1 rand(-2, 2)
+	Start_color 255 255 255
+	start_zrot rand(0, 360)
+	alpha_type 3
+	z_front 0.1
+	;no_billboard
+	free
+   
+time 0.5
+	alpha 255
+	color 255 0 0
+	;zrot rand(0, 360)
+	;scale rand(0.1, 0.9)
+
+
+
+   
+time 1
+	alpha 200
+	color 255 255 255
+	;zrot rand(0, 360)
+	;scale rand(0.1, 0.9)
+
+   
+time 2
+	alpha 150
+	color 255 0 0
+	;zrot rand(0, 360)
+	;scale rand(0.1, 0.5)
+
+   
+time 3
+	alpha 100
+	color 255 0 0
+	;zrot rand(0, 360)
+	;scale rand(0.1, 0.5)
+
+
+   
+time 4
+	alpha 50
+	color 255 0 0
+	;zrot rand(0, 360)
+	;scale rand(0.1, 0.5)
+
+time 5
+	alpha 0
+	color 255 255 255
+	;zrot rand(0, 360)
+
+
+
+end

@@ -1,0 +1,33 @@
+[Particle]
+
+entity_file .\Chef\Mob\STINGBLOCKLUNKER\39p\aura.R3E
+num 12
+pos box rand(-5,5) 0 rand(-5,5)
+
+live_time 2.5
+time_speed 0.5
+gravity -8 16 0
+	start_power rand(-2,2) rand(4,10) rand(-4,4)
+	start_scale 36
+	start_color 200 200 255
+	start_alpha 0
+	alpha_type 3        
+z_front -0.1
+
+time 0.5
+	alpha 150
+	scale 36
+	color 200 200 255
+	power rand(-2,2) rand(4,10) rand(-4,4)
+
+time 1
+	alpha 100
+	scale 30
+	color 100 100 255
+	power rand(-2,2) rand(4,10) rand(-4,4)
+
+time 2.5
+	alpha 0
+	scale 0
+	color 0 0 100
+	power rand(-2,2) rand(4,10) rand(-4,4)

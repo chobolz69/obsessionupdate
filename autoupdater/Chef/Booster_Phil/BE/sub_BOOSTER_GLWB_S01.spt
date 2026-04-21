@@ -1,0 +1,32 @@
+[Particle]
+entity_file .\Chef\Booster_Phil\BE\MOB_BOOSTER_GLOW\aura.R3E
+num 6
+pos box 0 0 0
+
+live_time 3
+time_speed 5
+gravity	0 0 0
+	;start_power rand(-0.05,0.05) rand(-0.05,0.05) 0.5
+	start_color 150 120 130
+	start_scale 0.5
+	start_alpha 200
+
+;z_front	-0.05
+alpha_type 3
+always_live
+
+time 0.5
+	alpha 120
+	scale 1
+
+time 1
+	alpha rand(50,70)
+	scale rand(3,4)
+
+time 2
+	alpha rand(20,30)
+	scale rand(5,6)
+
+time 3
+	alpha 0
+	scale rand(7,8)

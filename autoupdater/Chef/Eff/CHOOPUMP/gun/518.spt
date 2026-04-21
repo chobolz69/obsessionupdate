@@ -1,0 +1,22 @@
+[Particle]
+
+entity_file .\Chef\Mob02\CRIMSONEDGEGRAIZER\518p\aura.R3E
+num 5
+pos box 0 0 0
+
+live_time 0.8
+time_speed 0.6
+gravity 0 0 0
+
+	start_scale rand(1,1)
+	start_alpha rand(220,255)
+	start_zrot rand(0,360)
+	start_color 255 140 0
+
+alpha_type 3
+z_front -0.1    
+
+time 0.8
+	color 255 140 0
+	alpha 10
+end

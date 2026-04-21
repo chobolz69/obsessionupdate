@@ -1,0 +1,39 @@
+[Particle]
+entity_file .\Chef\recall\Smo00\aura\aura.R3E
+num 15
+pos box 0 rand(-0.4,0.4) rand(-0.4,0.4)
+live_time 3
+time_speed 1.5
+gravity -2 0 0
+	creat_time_epsilon 5
+	start_power 0 0 0
+	start_scale 1
+	start_color 255 255 100
+	start_alpha 0
+	start_zrot rand(0,90)
+	alpha_type 3
+z_front -0.1
+
+
+time 0.5
+	zrot rand(0,90)
+	power 0 0 0
+	alpha 255
+	scale 1.2
+	color  255 100 50
+
+time 0.8
+	zrot rand(0,90)
+	power 0 0 0
+	color 150 150 150 
+	alpha 100
+	scale 1.5
+
+time 2
+	zrot rand(0,90)
+	power 0 0 0
+	color 255 100 100  
+	alpha 50
+	scale 2
+
+

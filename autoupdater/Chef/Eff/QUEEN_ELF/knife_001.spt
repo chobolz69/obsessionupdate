@@ -1,0 +1,28 @@
+;Æ÷¼ÇºþÂ¦ÀÌ
+
+[Particle]
+entity_file .\Chef\Eff\QUEEN_ELF\spkl\spkl_b.r3e
+num	15
+pos box  rand(-1,1) 0 rand(-1,0)
+live_time 1
+time_speed 1
+gravity	0 0 0
+	;creat_time_epsilon 0.1
+	start_time_range 0.2
+	start_power rand(-3,3) 0 rand(-5,5)
+	start_color 255 150 150 
+	start_scale rand(0.5,1.5)
+	start_alpha 255
+	
+alpha_type 3
+;special_id 4
+z_front -0.5
+
+
+time 1
+	scale 0
+	alpha 255
+	color 255 55 0
+
+
+end

@@ -1,0 +1,202 @@
+//캐릭터의 등록...
+[Object]
+
+*b_01 .\Chef\RealTime_00\Mesh\c_fight.msh
+texpath .\Chef\RealTime_00\TEX
+bone	.\Chef\RealTime_00\bone\c_fight.bn
+ani 	.\Chef\RealTime_00\Ani\c_fight.ani
+mesh_id 14
+color 255 255 255
+_collision
+
+
+*b_02 .\Chef\RealTime_00\Mesh\c_fight.msh
+texpath .\Chef\RealTime_00\TEX
+bone	.\Chef\RealTime_00\bone\c_fight.bn
+ani 	.\Chef\RealTime_00\Ani\c_fight.ani
+mesh_id 14
+color 255 255 255
+_collision
+
+
+*b_03 .\Chef\RealTime_00\Mesh\c_fight.msh
+texpath .\Chef\RealTime_00\TEX
+bone	.\Chef\RealTime_00\bone\c_fight.bn
+ani 	.\Chef\RealTime_00\Ani\c_fight.ani
+mesh_id 14
+color 255 255 255
+_collision
+
+
+*b_04 .\Chef\RealTime_00\Mesh\c_fight.msh
+texpath .\Chef\RealTime_00\TEX
+bone	.\Chef\RealTime_00\bone\c_fight.bn
+ani 	.\Chef\RealTime_00\Ani\c_fight.ani
+mesh_id 14
+color 255 255 255
+_collision
+
+
+*b_05 .\Chef\RealTime_00\Mesh\Trans.msh
+texpath .\Chef\RealTime_00\TEX
+bone	.\Chef\RealTime_00\bone\Trans.bn
+ani 	.\Chef\RealTime_00\Ani\Trans.ani
+mesh_id 10
+color 255 255 255
+_collision
+
+
+*b_06 .\Chef\RealTime_00\Mesh\Trans.msh
+texpath .\Chef\RealTime_00\TEX
+bone	.\Chef\RealTime_00\bone\Trans.bn
+ani 	.\Chef\RealTime_00\Ani\Trans.ani
+mesh_id 10
+color 255 255 255
+_collision
+
+
+*b_07 .\Chef\RealTime_00\Mesh\PATROL_B.msh
+texpath .\Chef\RealTime_00\TEX
+bone	.\Chef\RealTime_00\bone\PATROL_B.bn
+ani 	.\Chef\RealTime_00\Ani\PATROL_B.ani
+mesh_id 8
+color 255 255 255
+_collision
+
+
+*b_08 .\Chef\RealTime_00\Mesh\PATROL_R.msh
+texpath .\Chef\RealTime_00\TEX
+bone	.\Chef\RealTime_00\bone\PATROL_R.bn
+ani 	.\Chef\RealTime_00\Ani\PATROL_R.ani
+mesh_id 9
+color 255 255 255
+_collision
+
+
+*b_09 .\Chef\RealTime_00\Mesh\TRANSHIP_00.msh
+texpath .\Chef\RealTime_00\TEX
+bone	.\Chef\RealTime_00\Bone\TRANSHIP_00.bn
+mesh_id 1
+mesh_id 1
+color 255 255 255
+_collision
+scale 1
+
+
+
+*magic 11
+magic_id	0x1e8480
+char_link	*b_09		
+char_dummy	P11
+map_dummy	*Dummy09
+
+*magic 12
+magic_id	0x1e8480
+char_link	*b_09 		
+char_dummy	P12
+map_dummy	*Dummy09
+
+
+
+
+;동영상 시작시 셋팅값이다.
+[PrepareTrack]
+total_frame 4000
+*b_01 *Dummy01
+*b_02 *Dummy02
+*b_03 *Dummy03
+*b_04 *Dummy04
+*b_05 *Dummy05
+*b_06 *Dummy06
+*b_07 *Dummy07
+*b_08 *Dummy08
+*b_09 *Dummy09
+
+
+
+ani *b_01 0
+ani *b_02 0
+ani *b_03 0
+ani *b_04 0
+ani *b_05 0
+ani *b_06 0
+ani *b_07 0
+ani *b_08 0
+ani *b_09 0
+
+
+camera	*camera01	;시작 카메라는 camera01이다.
+_fade_out 0
+_no_camera		;카메라 강제진행이 아닌경우.
+logo
+wide
+
+
+;여기서 부터 동영상 트랙이다... 
+;명령어들은 계속적으로 추가예정...
+[Track]
+*frame 1
+camera	 *camera01
+
+
+
+----------------------------------
+;방향전환
+*frame 1420
+magic 12
+
+
+*frame1420
+magic 11
+
+*frame 1440
+wav 	*Dummy09 .\Snd\ambience\Steam_01.wav  3000.0f
+
+*frame 1520
+magic 12
+
+
+*frame 1520
+magic 11
+
+*frame 1550
+wav 	*Dummy09 .\Snd\ambience\Steam_01.wav  3000.0f
+----------------------------
+;착륙
+
+*frame 2160
+wav 	*Dummy09 .\Snd\ambience\SHIP_01.wav 	3000.0f
+
+
+*frame 2200
+wav 	*Dummy09 .\Snd\ambience\Steam_01.wav  3000.0f
+
+*frame 2200
+magic 11
+
+*frame 2200
+magic 11
+
+*frame 2200
+magic 11
+
+*frame 2200
+magic 11
+
+*frame 2200
+magic 12
+
+*frame 2200
+magic 12
+
+*frame 2200
+magic 12
+
+*frame 2200
+magic 12
+
+*frame 2210
+wav 	*Dummy09 .\Snd\ambience\Steam_01.wav  3000.0f
+----------------------------
+
+

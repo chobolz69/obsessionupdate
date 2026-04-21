@@ -1,0 +1,40 @@
+[Particle]
+entity_file .\chef\event\Gold\JetPack\Entity\Outside_Ring\Outside_Ring.R3E
+num 1
+pos box 0 0 0
+
+live_time 9
+time_speed 1
+gravity 0 0 0
+
+	;start_power 0 0 0
+	start_scale 100
+	start_color rand(245,255) rand(200,210) 0
+	start_alpha 255
+	start_zrot 0
+	;start_time_range 0
+	flicker_alpha 100
+	flicker_time 0.05
+
+alpha_type 3
+y_front 5
+no_billboard
+
+time 3
+	;alpha 250
+	;scale 100
+	color rand(245,255) rand(200,210) 0
+	zrot -120
+
+time 6
+	;alpha 255
+	;scale 100
+	color rand(245,255) rand(200,210) 0
+	zrot -120
+
+time 9
+	;alpha 100
+	;scale rand(99.5,100.5)
+	color rand(245,255) rand(200,210) 0
+	zrot -120
+end

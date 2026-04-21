@@ -1,0 +1,29 @@
+
+[Particle]
+
+entity_file .\Chef\60LV_WHITE\c\glow\aura.R3E
+num 3
+pos box 0 0 0
+
+live_time 1.5
+time_speed 1
+gravity 0 0 0
+	
+	start_scale rand(1,2)
+	start_color 255 rand(214,229) rand(50,124)
+	start_alpha 0
+	start_zrot rand(0,360)
+	
+alpha_type 3
+z_front -0.1
+
+
+
+time 1
+	alpha 150
+
+time 1.5
+	alpha 0
+
+
+end

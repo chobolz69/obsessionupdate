@@ -1,0 +1,33 @@
+[Particle]
+entity_file .\Chef\RH\SPT\Crusader\Cloak\circle2\RH.r3e
+num	5
+pos box 0 2 0
+live_time 2
+time_speed 0.75
+gravity	0 4 0
+
+start_scale 0.85
+start_power 0 0 0
+start_alpha 0
+start_color 255 178 102
+start_yrot rand(0,360)
+	
+no_billboard
+alpha_type 3
+
+time 0.5
+	alpha 200
+	yrot -20
+time 1
+	alpha 150
+	yrot -50
+	color 255 178 102
+time 1.5
+	alpha 10
+	yrot -80
+time 2
+	alpha 0
+	yrot -100
+	color 255 178 102
+end
+

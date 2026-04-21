@@ -1,0 +1,76 @@
+[Particle]
+entity_file .\chef\event\Gold\Weapon\Speedster_Knife\Entity\blade.R3E
+num 3
+pos box 0 0 0
+
+live_time 0.3
+time_speed 5
+gravity 0 0 0
+
+	;start_power 0 0 0
+	start_scale rand(99,101)
+	start_color rand(245,255) rand(200,210) 0
+	start_alpha 70
+	;start_time_range 0.1
+	flicker_alpha 10
+	flicker_time 0.05
+	
+alpha_type 3
+z_front 0
+no_billboard
+
+time 0.1
+	;alpha 255
+	scale rand(99,101)
+	color  rand(245,255) rand(200,210) 0
+	
+time 0.12
+	;alpha 255
+	scale rand(99,101)
+	color  rand(245,255) rand(200,210) 0
+
+time 0.14
+	;alpha 255
+	scale rand(99,101)
+	color  rand(245,255) rand(200,210) 0
+
+time 0.16
+	;alpha 255
+	scale rand(99,101)
+	color  rand(245,255) rand(200,210) 0
+
+time 0.18
+	;alpha 255
+	scale rand(99,101)
+	color  rand(245,255) rand(200,210) 0
+	
+time 0.2
+	;alpha 255
+	scale rand(99,101)
+	color  rand(245,255) rand(200,210) 0
+
+time 0.22
+	;alpha 255
+	scale rand(99,101)
+	color  rand(245,255) rand(200,210) 0
+
+time 0.24
+	;alpha 255
+	scale rand(99,101)
+	color  rand(245,255) rand(200,210) 0
+
+time 0.26
+	;alpha 255
+	scale rand(99,101)
+	color  rand(245,255) rand(200,210) 0
+	
+time 0.28
+	;alpha 255
+	scale rand(99,101)
+	color  rand(245,255) rand(200,210) 0
+	
+time 0.3
+	;alpha 255
+	scale rand(99,101)
+	color  rand(245,255) rand(200,210) 0
+end

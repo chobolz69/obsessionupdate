@@ -1,0 +1,57 @@
+
+[Particle]
+entity_file .\Map\Entity\e_battledungeon2\light_006\wave02.r3e
+num 20
+~pos box rand(-80, 80) rand(0, 15) rand(-80, 80)
+start_zrot rand(0 360)
+
+live_time 9
+time_speed 2
+alpha_type 3
+start_alpha 240
+start_scale 0.4
+gravity 0 -3 0
+start_power rand(-1,1) rand(16,20) rand(-1,1) 
+~flicker_alpha 50
+~flicker_time 0.02
+~flicker
+
+
+time 1
+alpha 240
+scale 0.6
+
+
+
+time 3
+alpha 240
+scale 0.8
+
+
+time 5
+alpha 240
+scale 1.0
+power rand(-8,8) rand(-2,2) rand(-8,8) 
+~flicker
+
+time 7
+alpha 180
+scale 1.0
+
+~flicker
+
+time 8
+alpha 140
+scale 1.0
+power rand(-10,10) rand(-1,1) rand(-10,10) 
+~flicker
+
+
+time 9
+alpha 0
+scale 1.0
+~power rand(-60,60) rand(-1,1) rand(-60,60) 
+
+
+
+

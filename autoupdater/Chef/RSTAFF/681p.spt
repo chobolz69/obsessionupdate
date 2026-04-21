@@ -1,0 +1,33 @@
+;일렉-기본(활용)
+
+[Particle]
+
+entity_file .\Chef\RSTAFF\681p\aura.R3E
+num 30
+pos box rand(-12,1) 0 0
+
+live_time 1.2
+time_speed 1
+gravity	-1 0 0 
+	creat_time_epsilon 3
+	start_color 0 180 255
+	start_scale 1
+	start_alpha 0
+	;start_power rand(-0.1,0.1) rand(-0.1,0.1) rand(-0.1,0.1)
+	start_zrot rand(-360,360)
+z_front	-0.1
+alpha_type 3
+
+
+time 0.5
+	color 0 50 200
+	zrot rand(0,20)
+	alpha 200
+
+time 1.2
+	color 0 200 255
+	zrot rand(0,20)
+	scale 6
+	alpha 0
+
+end

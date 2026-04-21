@@ -1,0 +1,50 @@
+[Particle]
+entity_file .\Chef\Mob01\KWELERSOKUM\DAMGE_00\DAMGE_00.R3E
+num 8
+pos box rand(-5,5) rand(-0.5,4) 0
+live_time 2.5
+time_speed 2
+;gravity	0 5 0
+	;creat_time_epsilon 5
+	start_power rand(-0.5,0.5) rand(-0.5,4) rand(-0.5,0.5)
+	start_color 255 0 0
+	start_scale rand(0.1,0.4)
+	start_alpha 0
+	;start_zrot rand(-20,20)
+	alpha_type 3
+z_front 0.1
+
+time 0
+	color 255 0 0
+	alpha 100
+
+
+time 0.5
+	color 255 0 0
+	zrot rand(0,20)
+	;power rand(-1.5,2) rand(-1,5.5) 0
+	scale 0.8
+	alpha 200
+
+time 1
+	color rand(0,180) 0 rand(0,255)
+	zrot rand(0,50)
+	scale rand(0.5,1.4)
+	alpha rand(0,60)
+	alpha 255
+
+time 1.5
+	color rand(0,180) 0 rand(0,255)
+	scale 1.2
+	alpha 255
+
+time 2
+	color 255 0 0
+	scale 0.8
+	alpha 100
+
+
+time 2.5
+	color 255 0 0
+	scale 0.4
+	alpha 0

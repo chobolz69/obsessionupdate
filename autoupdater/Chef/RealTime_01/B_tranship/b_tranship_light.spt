@@ -1,0 +1,31 @@
+일렉-기본(활용)
+
+[Particle]
+
+entity_file .\Chef\Unit\B_tranship\Eye00\aura.R3E
+num 3
+pos box 0 0 0
+
+live_time 10
+time_speed 1
+gravity 0 0 0
+	
+	start_scale 20.5
+	start_color 100 100 255
+	start_alpha 0
+	start_zrot rand(0,360)
+	alpha_type 3
+
+z_front -0.1
+
+
+
+time 1
+	alpha 255
+	scale 30.5
+	color 100 100 255
+
+time 10
+	color 100 100 255 
+	alpha 0
+	scale 0

@@ -1,0 +1,53 @@
+{
+  "topics": [
+    {
+      "header": "[TOP-UP]",
+      "headerColor": "#FF003C",
+      "name": "Get Cash Coin!",
+      "nameColor": "#FF003C",
+      "link": "https://example.com/"
+    },
+    {
+      "header": "[Download]",
+      "headerColor": "#39FF14",
+      "name": "Full-Client!",
+      "nameColor": "#39FF14",
+      "link": "https://example.com/"
+    },
+    {
+      "header": "[Important]",
+      "headerColor": "#FF0080",
+      "name": "List Of Scammers !",
+      "nameColor": "#FF0080",
+      "link": "https://example.com/"
+    },
+    {
+      "header": "[Events]",
+      "headerColor": "#D901FF",
+      "name": "Anniversary CC Bonus",
+      "nameColor": "#D901FF",
+      "link": "https://example.com/"
+    },
+    {
+      "header": "[News]",
+      "headerColor": "#00F0FF",
+      "name": "Upcoming Updates",
+      "nameColor": "#00F0FF",
+      "link": "https://example.com/"
+    },
+    {
+      "header": "[Maintenance]",
+      "headerColor": "#ADFF2F",
+      "name": "Critical Fixes",
+      "nameColor": "#ADFF2F",
+      "link": "https://example.com/"
+    },
+    {
+      "header": "[Maintenance2]",
+      "headerColor": "#FF9100",
+      "name": "Auto Update Feature",
+      "nameColor": "#FF9100",
+      "link": "https://example.com/"
+    }
+  ]
+}

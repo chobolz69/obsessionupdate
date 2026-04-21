@@ -1,0 +1,22 @@
+[MagicTrack]
+create_type 2
+
+time 0
+entity_id 1441
+scale 0.1
+pos xyz 0 0 10
+y_angle 180
+
+
+time 0
+entity_id 1442
+scale 2
+
+
+time 0
+entity_id 1443
+scale 2
+
+
+
+end

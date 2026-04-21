@@ -1,0 +1,40 @@
+;검영역에 랜덤하게 나오는형식
+
+[Particle]
+
+entity_file .\Chef\Mob02\BLOODYSARCHER\439p\elec.R3E
+num 20
+pos box rand(-12.5,1) rand(-1,1) rand(-1,1)
+
+live_time 2
+time_speed 2
+gravity 0 0 0
+	creat_time_epsilon 6
+	start_scale 0.4
+	start_color 255 255 255
+	start_alpha 200
+	start_zrot rand(0,360)
+	alpha_type 3
+
+z_front -0.1
+
+time 0.5
+	color 255 255 255
+	alpha 200
+	scale 0.6
+time 1
+	color 255 255 255
+	alpha 100
+	scale 0.6
+
+time 1.5
+	color 255 255 255
+	alpha 50
+	scale 0.6
+
+time 2
+	color 255 255 255
+	alpha 0
+	scale 0.6
+
+end

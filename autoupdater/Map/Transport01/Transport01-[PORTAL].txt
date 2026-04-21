@@ -1,0 +1,15 @@
+_str_code	_str_code	_str_code	_str_code	int	_str_code	END
+dm_code	link_map	link_dm	active_map	dummy_type	use_race	
+더미_식별코드	연결맵	연결더미	이동할_맵	사용가능더미	사용가능종족	
+dpgoto_neutralb	NeutralB	dpfrom_transport01	연방군_점령지구_선착장	1	11000	
+dpgoto_neutralc	NeutralC	dpfrom_transport01	동맹군_점령지구_선착장	1	00110	
+dpgoto_neutrala	NeutralA	dpfrom_transport01	제국군_점령지구_선착장	1	00001	
+dpgoto_platformb	Platform01	dpfrom_btransport01	이더_연방군_선착장	1	11000	
+dpgoto_platformc	Platform01	dpfrom_ctransport01	이더_동맹군_선착장	1	00110	
+dpgoto_platforma	Platform01	dpfrom_atransport01	이더_제국군_선착장	1	00001	
+dpfrom_neutralb	0	0	0	0	11000	
+dpfrom_neutralc	0	0	0	0	00110	
+dpfrom_neutrala	0	0	0	0	00001	
+dpfrom_platformb	0	0	0	0	11000	
+dpfrom_platformc	0	0	0	0	00110	
+dpfrom_platforma	0	0	0	0	00001	

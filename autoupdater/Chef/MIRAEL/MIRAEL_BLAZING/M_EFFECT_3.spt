@@ -1,0 +1,33 @@
+[Particle]
+entity_file .\Chef\60LV_WHITE\A\body_glow\aura.R3E
+num 40
+pos box 0 rand(-1,10) -0.7
+
+
+live_time 3
+time_speed 2
+gravity	0 1 0
+	start_power rand(-0.5,0.5) rand(-0.5,0.5) rand(-0.5,0.5)
+	start_color rand(140,180) rand(0,10) rand(0,10)
+	start_scale 1
+	start_alpha 255
+z_front -0.1
+alpha_type 3
+always_live
+free
+
+time 1
+	alpha 200
+	scale 1.7
+    color rand(140,180) rand(0,10) rand(0,10)
+
+time 2
+	alpha 150
+	scale 2.7
+    color rand(140,180) rand(0,10) rand(0,10)
+
+time 3
+	alpha 50
+	scale 1.7
+    color rand(140,180) rand(0,10) rand(0,10)
+end

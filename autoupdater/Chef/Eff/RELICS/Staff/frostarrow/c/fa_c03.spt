@@ -1,0 +1,30 @@
+[MagicTrack]
+create_type 2
+attach
+
+time 0	
+entity_id 1423
+scale 2
+pos xyz 0 0 -19
+;반짝이파티클
+
+time 0
+entity_id 1422
+scale 2
+pos xyz 0 0 -22
+;회전파티클
+
+time 0	
+entity_id 1424
+scale 2
+pos xyz 0 0 -19
+;연기파티클
+
+
+
+
+
+
+
+
+end

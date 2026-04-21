@@ -1,0 +1,33 @@
+//최대트랙갯수11개
+
+
+[Particle]
+entity_file .\Map\Entity\e_pf\fsmk2\smk.r3e
+num 15
+
+pos box rand(-30,30) rand(-30,30) rand(-30,30)
+
+live_time 2
+time_speed 1.5
+gravity	9 -1 18
+
+	start_color 0 0 0
+	start_scale rand(0.8,1.6)
+	start_power 10 -2 rand(-5,5)
+	start_zrot rand(0,360)
+         start_alpha 255
+alpha_type 2
+night
+free
+
+
+time  1
+         color 30 30 35 
+
+
+                  
+time 2
+         ;alpha 0
+	color 0 0 0
+
+end

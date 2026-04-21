@@ -1,0 +1,28 @@
+
+[MagicTrack]
+time 0	
+entity_id 1423
+pos xyz 0 10 -19
+;반짝이파티클
+
+time 0
+entity_id 1422
+pos xyz 0 10 -22
+;회전파티클
+
+time 0	
+entity_id 1424
+pos xyz 0 10 -19
+;연기파티클
+
+time 0
+entity_id 1421
+scale 0.05
+pos xyz 0 10 -15
+;얼음엔티티
+
+
+
+
+
+end

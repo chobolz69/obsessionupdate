@@ -1,0 +1,19 @@
+;===============================================================================
+; AVI List
+;	PosX = 위치 숫자; POS_CENTER; POS_LEFT; POS_RIGHT;
+;	PosY = 위치 숫자; POS_CENTER; POS_TOP; POS_BOTTOM
+;===============================================================================
+
+[MAX_VIDEO_NEMBER]
+VideoListNumber = 1
+
+
+;===============================================================================
+
+[VIDEO_NUM_0]
+; 핵 폭탄 동영상
+Play	= ./Snd/Bgm/RF_Nuclear.wmv
+SizeX	= 720
+SizeY	= 332
+PosX	= POS_CENTER
+PosY	= POS_CENTER

@@ -1,0 +1,46 @@
+[Particle]
+entity_file .\Chef\Mob01\ZETSO\TREE_03\52693.R3E
+num	50
+
+pos box rand(-15.5,2) 0 0
+live_time 2
+time_speed 3
+gravity	0 0 0
+
+	start_scale rand(0.4,0.5)
+	start_power rand(-4,0.4) rand(-2.5,2.5) rand(-2.5,2.5)
+	start_alpha 50
+	start_color 255 rand(190,230) rand(130,200)
+	start_zrot rand(0,360)
+	start_time_range 0.5
+
+check_collision
+elasticity 1.5
+alpha_type 3
+flicker_alpha 140
+flicker_time 0.5
+
+
+time 0.3
+alpha 255
+zrot rand(1,8)
+flicker
+
+time 1
+alpha 255
+zrot rand (-6,9)
+scale rand(0.2,0.3)
+flicker
+
+time 1.5
+alpha 255
+zrot rand (-10,8)
+flicker
+
+time 2
+color 255 rand(190,200) rand(100,170)
+alpha 0
+flicker
+
+
+end

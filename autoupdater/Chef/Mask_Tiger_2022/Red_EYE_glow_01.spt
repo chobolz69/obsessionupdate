@@ -1,0 +1,25 @@
+[Particle]
+entity_file  .\Chef\Mask_Tiger_2022\EYE_glow\re.R3E
+num	10
+pos box 0 0 0
+
+live_time 1
+time_speed 5
+gravity	0 0 0
+	start_color 250 50 10
+	start_scale rand(0.25,0.5)
+	start_alpha 50
+	;start_yrot rand(-30,30)
+
+;no_billboard
+z_front -0.03
+alpha_type 3
+;free
+
+time 0.5
+	scale rand(0.5,0.75)
+	alpha 20
+
+time 1
+	scale rand(1,1.25)
+	alpha 0

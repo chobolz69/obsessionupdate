@@ -1,0 +1,35 @@
+
+[Particle]
+entity_file .\Map\Entity\n_field\bd_light_ef03\bd_light_ef03.r3e
+num 3
+pos box rand(-30,40) rand(-30,30) rand(-30,30)
+y_billboard
+
+live_time  8
+time_speed 4
+gravity rand(-3,3) rand(-3,3) rand(-3,1)
+create_time_epsilon 0.5
+start_zrot rand(-50,50) 
+start_scale rand(0.2,0.5)
+
+
+
+
+start_alpha 110
+
+
+alpha_type 3
+
+time 4
+scale rand(0.3,0.6)
+alpha 0
+
+
+
+
+
+
+
+
+
+end

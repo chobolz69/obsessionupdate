@@ -1,0 +1,46 @@
+[Particle]
+
+entity_file  .\Chef\event\Christmas\22\Snowflake\Snowflake.r3e
+num 20
+pos sphere_xz rand(0.8,0.9) rand(-0.2,0.2) rand(0.8,0.9)
+
+live_time 7
+time_speed 1
+gravity 0 0 0
+;free
+no_billboard
+
+	start_power 0 0 0
+	start_time_range rand(0,0.3)
+	start_scale rand(0.06,0.08)
+	start_color 150 150 255
+	start_alpha 0
+	start_xrot rand(-360,360)
+	start_yrot rand(-360,360)
+	start_zrot rand(-360,360)
+	alpha_type 3
+
+z_front -0.1
+yrot 360
+
+time 0.2
+	alpha 255
+	xrot rand(-360,360)
+	yrot rand(-360,360)
+	zrot rand(-360,360)
+	
+time 1
+	color 150 150 255
+	alpha 150
+	scale rand(0.04,0.05)
+	xrot rand(-360,360)
+	yrot rand(-360,360)
+	zrot rand(-360,360)
+	
+time 7
+	alpha 0
+	xrot rand(-360,360)
+	yrot rand(-360,360)
+	zrot rand(-360,360)
+	
+end

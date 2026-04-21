@@ -1,0 +1,35 @@
+;직진형태
+
+[Particle]
+
+entity_file .\Chef\Unick_up\C_W_TBEAMGUN\194p\aura.R3E
+num	20
+pos box 0.6 -5.5 0
+
+live_time 4
+time_speed 1
+gravity	0 0 0
+         start_color 150 30 20
+         start_scale rand(4,7)
+	 start_alpha 0
+alpha_type 3
+         
+z_front -0.1
+
+time 0.5
+         alpha 100
+         scale 6
+         color 150 30 20
+
+time 2
+
+	 alpha 180
+         color 150 30 20
+	 scale 3
+
+time 4
+
+
+         alpha 0
+         scale 0.1
+end

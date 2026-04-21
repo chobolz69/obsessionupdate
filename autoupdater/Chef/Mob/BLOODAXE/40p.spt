@@ -1,0 +1,32 @@
+[Particle]
+
+entity_file .\Chef\Mob\BLOODAXE\40p\aura.R3E
+num 26
+pos box rand(-5,5) -5 rand(-4.5,4.5)
+
+live_time 3
+time_speed 2
+gravity 0 4 0
+	;creat_time_epsilon 5
+	;start_power rand(0.2, 1) rand(0.2, 1) rand(0.2, 1)
+	start_scale 10
+	start_color 255 100 0
+	start_alpha 0
+	alpha_type 3        
+z_front -0.1
+
+time 0.5
+	alpha 30
+	color 255 200 0
+
+time 1.5
+	alpha 150
+	color 255 100 0
+
+time 2.5
+	alpha 50
+	color 255 50 0
+
+time 3
+	alpha 0
+	color 255 0 0
