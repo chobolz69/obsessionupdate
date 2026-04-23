@@ -15,12 +15,12 @@
 /DataTable/GameSetting.ini.zip|1ab7d6571da1b0c0eb94cb98e9bfc863
 /DataTable/Hint.edf.zip|a60380cd72ab20a1b1ff8de716f59be9
 /DataTable/Ipa.dic.zip|2fd7c92a627228fc35f320a37a73f67a
-/DataTable/Item.edf.zip|0385f05843a52295556ae16fd7886499
+/DataTable/Item.edf.zip|f79504fecd1dec0533aa30eb918f8655
 /DataTable/ItemArmor.edf.zip|8742a876c4bb040486ea6de84b348630
 /DataTable/ItemCash.edf.zip|fff49ced0bdf3e131f17b7946a6c69fd
 /DataTable/ItemCombine.edf.zip|8177ed88be3512020fd61c70c8929ce7
 /DataTable/ItemPremium.edf.zip|fdae0d6012a8b97d44dfaf7b170f03a1
-/DataTable/ItemSetEffect.edf.zip|822b8614e11465d87b08663c460ec7db
+/DataTable/ItemSetEffect.edf.zip|e106ee606473edab1666820aa0a73578
 /DataTable/ItemTimer.edf.zip|747240b5b3681524596e79f01b10f39e
 /DataTable/ItemWeapon.edf.zip|ba0e5b7ae8ec3c91e3ff4d2176b3da2d
 /DataTable/KeyMap.dat.zip|44a18eabdeaa75207a483f04e26c2223
@@ -37,7 +37,7 @@
 /DataTable/Resource.edf.zip|4e4cc05be6f7a912693aee95fb1fc961
 /DataTable/SetItemEffect.edf.zip|dd40cca68b421a90b116ce0751897d70
 /DataTable/SkillForce.edf.zip|9180419d03f957783c57312215cd818f
-/DataTable/Store.edf.zip|acd79e727d84c3fdfe359d38cf983b1c
+/DataTable/Store.edf.zip|11ee05dc5d830a611b3fcbd9f7d0e180
 /DataTable/UIHelp.edf.zip|725595a1054d70d5bcd6c9d5d2636004
 /DataTable/WORLDMAPDATA.DAT.zip|2e17a79d421eb7bb0fb97218154329c4
 /DataTable/ar.scp.zip|bf781f613273272e8b0134cb0adf2b2a
@@ -80,7 +80,7 @@
 /DataTable/en-gb/MonsterScript.edf.zip|117e31d148e123c11377673ebbaf91ff
 /DataTable/en-gb/NDCharacter.edf.zip|94015a7f7de0371f777d4e9598ada98f
 /DataTable/en-gb/NDEventShip.edf.zip|eefad2eacde82a1d5340ed73347efeb0
-/DataTable/en-gb/NDItem.edf.zip|b06f3c3a773da8ec96f53624f761c3e1
+/DataTable/en-gb/NDItem.edf.zip|7c1f7fb306dd105e1c2d37a487bdbf99
 /DataTable/en-gb/NDItemCash.edf.zip|e2f59867661c279f3cf6b3565021c60c
 /DataTable/en-gb/NDLanguage.edf.zip|8896e9665630c42cde4b8fe93f692841
 /DataTable/en-gb/NDMap.edf.zip|4ee994fb752dd52f4400c8e1bda0019a
@@ -88,7 +88,7 @@
 /DataTable/en-gb/NDMsgMonster.edf.zip|69c648c3f97e9bee88f189f4502cb196
 /DataTable/en-gb/NDQuest.edf.zip|98f21e153dfcb4ddb3f3aac9a74bcb55
 /DataTable/en-gb/NDSkillForce.edf.zip|0142348a1033aedbe77d305fe24d512c
-/DataTable/en-gb/NDStore.edf.zip|3757d6492a335a26500a2ccf8ba2393c
+/DataTable/en-gb/NDStore.edf.zip|ad27fc663308d1789d06a709d9bfb163
 /DataTable/en-gb/PcRoom.edf.zip|0052dcdc36a6e3382d3c274342c59793
 /DataTable/en-gb/Player.edf.zip|252f0a394f181cea91d5bae592505ca0
 /DataTable/en-gb/Quest.edf.zip|44ee39664a29a8b6bf2c511906d8b31d
